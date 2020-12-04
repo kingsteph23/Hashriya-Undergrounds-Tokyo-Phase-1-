@@ -1,0 +1,155 @@
+# Intro
+
+choice = input("Welcome to the land of the rising sun,Do you wish to start?(yes/no):").lower().strip()
+if choice.lower().strip() == "yes":
+    print("IKUZO, LETS BEGIN")
+else:
+    print("Too bad. Welcome to Hayshriya Undergrounds;)")
+
+playa = input("Quick question.... What is your name?:")
+
+# Selecting a Japanese car Manufactuer.  I'll add some European cars in a future update.  Time of Day(TOD)
+JDM = input("Okay " + playa + "! Please select a Japanese Car Manufactuer(Honda/Mazda/Mistubushi/Nissan/Subaru/Toyota) :")
+if JDM == "Honda":
+    JDM = input("Please select which Honda  model you wish to select. "
+                "(\nHonda (S2000, Nsx(NC1),EK9):")
+elif JDM == "Toyota":
+    JDM = input("Please select which Toyota you wish to select. "
+                "\nToyota( Supra 2.5 GT TT,Supra RZ,Soarer 2.5 GT TT,MR2):")
+if JDM == "Mazda":
+    JDM = input("Please select which Mazda model  you wish to select. "
+                "(\nMazda (RX 7 FD35,RX 7 FC35,Miata mx5 NA,Miata mx5 NB,RX 8): ")
+elif JDM == "Mistubushi":
+    JDM = input("Please select which Mistubushi model you wish to select."
+            "\nMistubushi (GTO TT, FTO, Lance Evo iii, Lance evo VI, Lance Evo VIII)")
+if JDM == "Nissan":
+    JDM = input("Please select which Nissan model you wish to select."
+                "\nNissan (Skyline R34, Skyline R33, Skyline R32, Silvia S15, Fairlady Z 300ZX, Fairlady Z.L, Fairlady Z 350Z):")
+elif JDM == "Subaru":
+    JDM = input("Please select which Subaru model you wish to select."
+                "(\nSubaru (Impreza WRX STI, Impreza WRX STI Version VI, Subarau BRZ):")
+
+TOD = input("Select the time of day you wish to drive.  (Dawn/Midnight)")
+# The beggining of the game.  First choices(Well not really ;)
+# Adding mods. (Its as special suprise tool that will help us later ;)
+
+mods = input("Do you wish to add modifications to your " + JDM + ". "
+                                                                 "\n These include Spoilers,Tires,Engine swaps,Exhausts,etc.."
+                                                                 "\n Do you wish to add these modifications(yes/no) ")
+
+# City/course selection
+city = input("Wonderful choice " + playa + ". I see you got style..Proceed to select a course(C1 inner,Bayshore route): ")
+# To those doing the C1 inner loop option
+if city == "C1 inner":
+    city = input("You have just left Fujiwara's Tuning shop in Yokohama, "
+                 "\nand is now on the way to Daikoku parking lot. You arrive and meet the bois. "
+                 "\nYour homie hiroshi ask,"
+                 "\nhey " + playa + ", wanna go for a midnight run?(Stay/Go):")
+if city == "Go":
+    city = input("Bet. Wanna do a run on the Daikoku route to C1 inner?(yes/no):")
+if city == "yes":
+    print("start your " + JDM + " Off to C1 Loop we go!!!")
+elif city.lower().strip() == "Stay":
+    print("You still coming with us")
+else:
+    exit()
+# Next part of game(C1 inner)
+city = input(
+    "You and the bois are known crusing through Daikoku route during the " + TOD + " "
+    "\nAll of a sudden, a Porsche 911 GT2(95) appears and flickers its lights."
+     "\n you pull over, and a female walks out of the car.  She challenges you to a pinkslip race"
+     "\n2 laps around city inner. Last lap, whoever, can cross Rainbow bridge "
+     "\nWinner gets losers car.  Do you accept the challenge(yes/no)"
+)
+if city == "no":
+    print("Hmmm. maybe another time. And she drives off into " + TOD + ". "
+          "\nBut at leat you and the bois return to the midnigt run. ")
+else:
+    print("I WILL START THE COUNTDOWN.")
+    x = 10
+    while x > 0:
+        print(x)
+        x -= 1
+    print("GO!")
+print("As you blast, you start noticing your rival starts gaining the high ground"
+      "\nOh shoot, you already in the Ichinohashi Junction. Already in a tunnel, you can already hear that flat six engine  going at it "
+      "\n A couple of loops later.  We're already on lap 2.  Now we're at the colorful Rainbow brige"
+      "\n But all of a sudden, you see smokey flames coming from your rivals car. A BLOWOUT!"
+      "\n You pull to the side. She exists out of her car shocked. She admits defeat"
+      )
+city = input("Since you somehow have empathy for her, and a chance to slide in them dms."
+              "\n Do you(Take the car to the Yokohama tuning Garage/Call a tow truck and drip")
+if city == "Take the car to the Yokohama tuning Garage":
+    print("You and the bois hook her car to your "+JDM+""
+        "\n .You drive on the Bayshore route, during a beautiful "+TOD+"  "
+        "\n You call up your homie Kotori, and ask him to be ready to fix a porsche."
+        "\n You arrive at the tuning shop, and the driver says,Arigato!"
+        "\nAs a gift, she has a surprise for you....")
+city = input("Wanna see the surprise(yes/hell yes):")
+if city == "yes":
+    print("She gives you ¥40000 and adds you on Insta.")
+elif city == "hell yes":
+    print("She gives you ¥40000 and adds you on Insta. You really think she was finna give you more?"
+    "\nYou just got caught lackin.")
+
+mods = input("As you and the homies head back to Daifoku parking. You see flashing lights..."
+             "\n Damn near 10-15 police cars surrondnded the parking.A sting operation!!"
+             "\n and you just remember that is 7 day..."
+             "\n But yet you still stay in line for the inspection.  "
+             "\n  A cop goes to your car and ask if there is any mods."
+             "\n  Do you have modifications installed in your car?(yes/no")
+if mods == "no":
+    print("Very well. You passed inspection, have a wonderful day!")
+else:
+    mods = input("Either you return the car, or you attempt escape?(escape/return):")
+if  mods == "escape":
+    print("you messed up G.  The whole squad after you now")
+
+else:
+    print("The next day.....")
+    print()
+    print("")
+
+
+# Asking if user wishes to play course again
+choice = input("Do you wish to play again?(yes/no)")
+
+if choice.lower().strip() == "yes":
+    print("Just hit play ;)")
+else:
+    print("Thank you for playing my game.  Have a wonderful day:). Sayonara!!")
+
+
+# To those who chose the Bayshore route option
+if city == "Bayshore route":
+    city = input("You are now on the infamous Bayshore route, known for the legendary Midnight Club. "
+                 "\nWhile cruising in your " + JDM + " , you see another Hashiriya.  Do you wish to challenge him?(yes/no):")
+if city.lower().strip() == "yes":
+    print("ITS ON, the last one to Yokohama bay bridge loses. Ikuzo")
+
+else:
+    print("Its still on, the Hashiriya still flickers his headlights. Challenge still stands, last one to Yokohama bay bridge loses.")
+
+# Next part of the game
+city = input("A intense head to head in the Haneda North tunnel at almost 300 kmh, " +
+             "but once you exit, you see a r34 police car! Do you wanna(pull over/speed away)? :")
+if city.lower().strip() == "speed away":
+    print("You hear, Unit 4, possible street racers, requesting backup.  Stop your vehicle. "
+          " Ah shit, the chase is on.")
+    city = input("You are now being chased by the police, but you see two exits,exit 7 & 8.  "
+                 "Exit 7 leads to Yokohama bay bridge. Exit 8 leads to Haneda airport. I choose(exit 7/exit 8) :")
+    if city.lower().strip() == "exit 7":
+        print("Ehhh, he gave me the slip. I've lost him, breaking pursuit.  You cross yokohama bay bridge, and evade arrest, Noice..")
+    else:
+        print("Turn off you car, stay where you are!  You're busted.  Never go to a airport in a chase.  Game over..")
+
+# Had to put this here, in order for game to end properly for this specific choice.
+elif city.lower().strip() == "pull over":
+    print("You recieve a ticket of ¥10000 for speeding.  At least you still have your liscense.  Game over..")
+
+# Asking user if they wish to restart the game(Adding feature that will automaticlly restart if you select yes)
+choice = input("Do you wish to play again?(yes/no)")
+if choice.lower().strip() == "yes":
+    print("Just hit play ;)")
+elif choice.lower().strip() == "no":
+    print("Thank you for playing my game.  Have a wonderful day:). Sayonara!!")
