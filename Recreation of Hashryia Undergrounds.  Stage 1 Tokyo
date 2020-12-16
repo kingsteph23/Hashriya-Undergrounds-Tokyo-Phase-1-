@@ -1,0 +1,130 @@
+# Intro
+
+choice = input("Welcome to the land of the rising sun,Do you wish to start?(yes/no):").lower().strip()
+if choice.lower().strip() == "yes":
+    print("IKUZO, LETS BEGIN")
+else:
+    print("Too bad. Welcome to Hayshriya Undergrounds;)")
+
+playa = input("Quick question.... What is your name?:")
+
+# Selecting a Japanese car Manufactuer.  I'll add some European cars in a future update.  Time of Day(TOD)
+JDM = input("Okay " + playa + "! Please select a Japanese Car Manufactuer(Honda/Mazda/Mistubushi/Nissan/Subaru/Toyota) :")
+if JDM == "Honda":
+    JDM = input("Please select which Honda  model you wish to select. "
+                "(\nHonda (S2000, Nsx(NC1),EK9):")
+elif JDM == "Toyota":
+    JDM = input("Please select which Toyota you wish to select. "
+                "\nToyota( Supra 2.5 GT TT,Supra RZ,Soarer 2.5 GT TT,MR2):")
+if JDM == "Mazda":
+    JDM = input("Please select which Mazda model  you wish to select. "
+                "(\nMazda (RX 7 FD35,RX 7 FC35,Miata mx5 NA,Miata mx5 NB,RX 8): ")
+elif JDM == "Mistubushi":
+    JDM = input("Please select which Mistubushi model you wish to select."
+            "\nMistubushi (GTO TT, FTO, Lance Evo iii, Lance evo VI, Lance Evo VIII)")
+if JDM == "Nissan":
+    JDM = input("Please select which Nissan model you wish to select."
+                "\nNissan (Skyline R34, Skyline R33, Skyline R32, Silvia S15, Fairlady Z 300ZX, Fairlady Z.L, Fairlady Z 350Z):")
+elif JDM == "Subaru":
+    JDM = input("Please select which Subaru model you wish to select."
+                "(\nSubaru (Impreza WRX STI, Impreza WRX STI Version VI, Subarau BRZ):")
+
+TOD = input("Select the time of day you wish to drive.  (Dawn/Midnight)")
+# The beggining of the game.  First choices(Well not really ;)
+# Adding mods. (Its as special surprise tool that will help us later ;)
+
+mods = input("Do you wish to add modifications to your " + JDM + ". "
+                                                                 "\n These include Spoilers,Tires,Engine swaps,Exhausts,etc.."
+                                                                 "\n Do you wish to add these modifications(yes/no) ")
+
+# City/course selection
+city = input("Wonderful choice " + playa + ". I see you got style.."
+            "\nWelcome to Tokyo, Japan.  This stage will have 3 stages.Each with their own storyline."
+             "\nThe Wangan sen stage, the C1 inner stage, and the Tokyo bay aqualine."
+             "\nWe will start with the Wangan sen stage.  As you progress. You will be able to access other stages."
+               "\nRemeber, each choice you make will lead to a different outcome."
+                "\noh and you'll start off with  ¥600000"
+                 "\nAre you ready?"
+                  "\n(yes/no)"
+                   "\n:")
+
+if city == "yes":
+    print("Alrighty, onto stage 1 than")
+else:
+    print("We still going G. Hehehe.")
+yen = 600000
+Bayshore = input("Stage 1...Bayshore route(Shuto expressway)"
+                 "\nThe legendary Wangen sen..Known for the infamous Midnight club races which took place in the 90s"
+                 "\nWhile crusing iN your "+JDM+", you arrive at a toll booth,and must pay  ¥7100 to proceed."
+                  "\nYou pay  ¥7100 to the toll booth operater.")
+
+yen -= 7100
+
+Bayshore = input("Current Balance:¥592900"
+                 "\nYou payed and have a balance of ¥592900 left."
+                 "\nAs you cruise in your "+JDM+", you notice another Hashriya driving."
+                  "\nYou are thinking about challenging him."
+                  "\nHe flickers at you and wishes to challenge you... "
+                  "\nDo you...."
+                  "\nAccept the challenge"
+                  "\nPretend he isn't there, and go about your way"
+                   "\n:")
+
+if Bayshore == "Accept the challenge":
+    print("ITS ON, the last one to Yokohama bay bridge loses. Ikuzo")
+else:
+    print("The challenge still stands....Last one to Yokohama Bay bridge loses..."
+          "\nOnce the timer ends, the race begins. ")
+    x = 10
+    while x > 0:
+        print(x)
+        x -= 1
+    print("GO!")
+
+tunnel = input("A intense head to head taking place along the Kanegawa tunnel."
+               "\nOne moment your ahead, the other moment, your opponent is ahead."
+               "\nPushing your "+JDM+"to the limit"
+               "\nHowever, this intense is brought to a halt once you exit out the tunnel..."
+               "\nYou spot  a black and white Toyota crown police car!"
+               "\nSirens start wailing, you have two options. Either continue the race, or pull over."
+               "\nDo you..."
+               "\nPull over"
+               "\nContinue the race"
+               "\n:")
+
+if tunnel == "Pull over":
+    print("Current balance:¥591200"
+          "\nSmart choice."
+          "\nNow you pay a fine of ¥1000 for speeding. and you still have your lisence, so thats a plus")
+    exit()
+else:
+    print("Unit 4, possible street racers, requesting backup.  Tokyo Metropolitan police!! "
+          "\nStop your vehicle!!"
+          "\nBreak yo self fool!!"
+          "\nAh Shit its 5-0.")
+chase = input("Now the chase is on because for some reason you still want to race..."
+              "\nbut other than that, some sirens are coming at ya"
+              "\nand now you see two exits, in which one of them are life savers"
+              "\nexit 7 leads to Haneda airport"
+              "\nexit 8 leads to yokohama bay bridge, and leads to the city of Yokohama"
+              "\nChoose a exit, and remember, choose wisely...."
+              "\nexit 7"
+              "\nexit 8")
+
+if chase == "exit 7":
+    print("Turn off you car, stay where you are! Driver, you are under arrest."
+          "\nDamn, you've been busted.  There was a roadblock at the airport waiting for you"
+          "\nTip:Never go to a airport during a pursuit. Thats just dumb")
+elif chase == "exit 8":
+    print("Ehhh, he gave me the slip. I've lost him, breaking pursuit.")
+selector = input("Bueno.You have evaded arrest, but now you must swap your car or you'll get caught"
+          "\nYou recieve a phone call from your friend Hiroshi, and he wants to you to a car meet"
+          "\nat Daifoku parking lot near Yokohama. Do you accept?"
+          "\naccept"
+          "\ndeny"
+          "\n:")
+if selector == "deny":
+    print("Thank you for playing my game..Have a wonderful day "+playa+".")
+    exit()
+else:
+    print("Lets change ya car.")
