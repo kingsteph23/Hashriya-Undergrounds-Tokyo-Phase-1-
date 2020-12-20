@@ -140,7 +140,7 @@ if tunnel == "Pull over":
     print("Current balance:¥591200"
           "\nSmart choice."
           "\nNow you pay a fine of ¥1000 for speeding. and you still have your licence, so thats a plus"
-          "\nBut for a while, you're better off staying off the roads, beforr you pull something like that again"
+          "\nBut for a while, you're better off staying off the roads, before you pull something like that again"
           "\nGame Over")
     exit()
 #Bayshore route-still going
@@ -297,10 +297,22 @@ city = input(
     "\nno"
     "\n:")
 if city == "no":
-    print("Hmmm. maybe another time. And she drives off into the breezy "+TOD+". "
-          "\nBut at least you and the bois return to the midnight run. ")
+    print("Hmmm. maybe another ti....SIKKEEEE "
+          "\nNow being pressured by your friends and actually have a chance to show of your"+yokohama+", you agree, to a friendly...competition...."
+          "\nTwo laps along the C1 inner loop, with a final stretch on the Rainbow Bridge."
+          "\nYa Boi Tadashi says"
+         "\nI WILL START THE COUNTDOWN.")
+    print()
+    x = 10
+    while x > 0:
+        print(x)
+        x -= 1
+    print("GO!")
+    print()
+    print()
 elif city == "yes":
-    print("I WILL START THE COUNTDOWN.")
+    print("Ya boi Tadashi says..."
+    "\nI WILL START THE COUNTDOWN.")
     print()
     x = 10
     while x > 0:
@@ -311,9 +323,9 @@ elif city == "yes":
     print()
 input("As you blast, you start noticing your rival starts gaining the high ground"
       "\nOh shoot, you already in the Ichinohashi Junction. Already in a tunnel, you can already hear that flat six engine  going at it "
-      "\n A couple of loops later.  We're already on lap 2.  Now we're at the colorful Rainbow bridge"
-      "\n But all of a sudden, you see smokey flames coming from your rivals car. A BLOWOUT!"
-      "\n You pull to the side. She exists out of her car shocked. She admits defeat")
+      "\nA couple of loops later.  We're already on lap 2.  Now we're at the colorful Rainbow bridge"
+      "\nBut all of a sudden, you see smokey flames coming from your rivals car. A BLOWOUT!"
+      "\nYou pull to the side. She exists out of her car shocked. She admits defeat")
 print()
 print()
 race = input("Since you somehow have empathy for her, and a chance to slide in them dms."
@@ -326,25 +338,33 @@ print()
 # Choice after race incident
 # Tow truck option result
 if race == "Call a tow truck and dip":
-    input("She is thankful for your help, and undertstands you must go"
+    race = input("She is thankful for your help, and undertstands you must go"
           "\nTwo of your homies ,Tadashi and Hiromori, suggests following the truck to make sure"
           "\nThe female driver arrives safely"
-          "\nDo you want to come with the female driver"
+          "\nDo you want to come with the female driver?"
           "\nyes"
           "\nno"
           "\n:")
+if race == "yes":
+    print("She is very thankful, and you and the bois drive along to Fujiwara tuning garage in Minato city"
+          "\non a breezy "+TOD+"."
+          "\nOnce you arrive,she thanks you again, but right before she leaves, she wants to give a gift.....")
+else:
+    print("She still is thankful "
+          "\nBut right before she leaves,she wants to give you something as a thank you gift......")
+
 # Tuning garage option result
-elif race == "Take the car to the Yokohama tuning Garage":
+if race == "Take the car to the Yokohama tuning Garage":
     race = input("You and the bois hook her car to your "+JDM+""
     "\nYou drive on the Bayshore route, during a beautiful "+TOD+""
     "\nYou call up your homie Kotori, and ask him to be ready to fix a porsche."
     "\nYou arrive at the tuning shop, and the driver says,Arigato!"
     "\nAs a gift, she has a surprise for you....")
-surprise = input("Wanna see the surprise"
+surprise = input("Do you Wanna see the gift from the female driver?"
              "\nyes"
              "\nhell yes"
              "\n:")
-# Suprise from female driver
+# Surprise from female driver
 if surprise == "yes":
     print("She gives you ¥40000 and adds you on Insta.")
 elif surprise == "hell yes":
@@ -365,21 +385,47 @@ mods = input("Current balance:¥629200"
              "\n:")
 if mods == "no":
     print("Very well. You passed inspection, have a wonderful day!")
-else:
+elif mods == "yes":
     mods = input("Either you return the car, or you attempt escape?(escape/return):")
     #Police chase
-if mods == "escape":
-    print("you messed up G.  The whole squad after you now")
-# Getting mods removed
-elif mods == "return":
+if mods == "return":
     print("The Keibu-ho(警部補)(Inspector) wants you to remove the mods immediately, and should be done by tomorrow evening "
-          "\nThe next day.....")
+         "\nThe next day.....")
     print()
     print("While walking on a bright afternoon in Yokohama,"
           "\nYou pay a fee of ¥2000 and forced to watch your sweet,sweet mods at the police station. "
-          "\nNow, your"+yokohama+" is....STOCK!!"
-          "\nLooks like for a while, you aren't finna be doing midnight runs with the bois for a while...."
-          "\nCurrent balance: ¥627200")
+          "\nNow, your " + yokohama + " is....STOCK!!"
+                                      "\nLooks like for a while, you aren't finna be doing midnight runs with the bois for a while...."
+                                      "\nCurrent balance: ¥627200")
+# Getting mods removed
+elif mods == "escape":
+    print("you messed up G.  The whole squad after you now")
+    print()
+    print("Shit, now you broke the toll booth just to escape"
+          "\nNow you're back on the Wangan, and hear wailing on wailing from the 警察庁, Keisatsu-chō(Police)"
+          "\nIt is " + TOD + " so you have somewhat of a chance to escape...."
+          "\nBut you also hear. In Pursuit"
+          "\nNow you are nearing the Kawasaki-Ukishima JCT"
+             "\nAnd you see two exits,"
+             "\nexit a leads to the Tamagawa tunnel which eventually leads to Haneda Airport."
+             "\nMeanwhile exit b leads to the Tokyo Bay aqualine..")
+    print()
+aqua = input("\nOne of these exits lead to freedom,the other, your licence goes bye bye."
+             "\nDo you choose..."
+             "\nexit a"
+             "\nexit b"
+             "\n:")
+if aqua == "exit a":
+    print("You hear..Stay where you are. stay where you are. Pull over immediately. Exit your vehicle."
+          "\nIf you only realized that there was a police station at Haneda"
+          "\nYou would've pulled it off...."
+          "\nBUSTED. GAME OVER ")
+    exit()
+elif aqua == "exit b":
+    print("Going over 150 MPH, You have successfully evaded arrest. "
+          "\nBut you're probably in the police database again..."
+          "\nYou call some friends and  you are now on your way to Top Secret in Chiba Japan")
+
 stage3 = input("Whether we ended in a good or bad way, do you want to continue to the next stage?"
                "\nyes"
                "\nno"
@@ -389,5 +435,4 @@ if stage3 == "no":
     print("Thank you for playing my game..Have a wonderful day " + playa + "!!")
     exit()
 else:
-    print("Welcome to last and final stage of Hashriya Adventures, the Tokyo Bay Aqualine")
-# Intro of Stage 3, Tokyo Bay Aqualine
+   print("Welcome "+playa+" to the last and final stage of Hashriya Undergrounds. Tokyo Bay Aqualine...."
