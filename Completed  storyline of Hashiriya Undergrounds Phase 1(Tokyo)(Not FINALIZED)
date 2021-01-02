@@ -2,7 +2,7 @@ print("_________________________________")
 print("|    🔰走り屋にわたって地下 🔰       |")
 print("|                               |"
       "\n|  🔰Hashriya Undergrounds🔰     |"
-      "\n|       Phase 1(Tokyo)            |"
+      "\n|       Phase 1(Tokyo)          |"
       "\n|_______________________________|")
 
 start = input("Hello playa.  Do you wish to begin?"
@@ -79,11 +79,45 @@ JDM = input("Okay " + playa + "! Please select a Japanese Car Manufactuer"
 print()
 if JDM == "Honda":
     JDM = input("Please select which Honda  model you wish to select. "
-                "(\nHonda S2000"
-                "\n Nsx(NC1)"
+                "(\nS2000"
+                "\nNsx(NC1)"
                 "\nEK9"
                 "\n:")
-elif JDM == "Toyota":
+if JDM == "S2000":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style-2  door roadster"
+                                                  "\nLayout-Front engine and Rear wheel drive"
+                                                  "\nEngine type-  Naturally Aspirated inline 4"
+                                                  "\nHorsepower-237 hp"
+                                                  "\nTorque-162 lb per feet"
+                                                  "\nTransmission-6 speed manual"
+                                                  "\nWeight-1,250 kg(2,756 lb)"
+                                                  "\nProduction- 1999-2009"
+                                                  "\nTop speed:160 mph")
+elif JDM == "Nsx(NC1)":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- 2 door coupe,2 door targa top"
+                                                  "\nLayout- Transverse mid-engine,RWD"
+                                                  "\nEngine type-  Honda C30A V6"
+                                                  "\nHorsepower- 270 hp"
+                                                  "\nTorque-210 lb-ft"
+                                                  "\nTransmission-5 OR 6 SPEED MANUAL"
+                                                  "\nWeight- 3,020 lb(1,370 kg)"
+                                                  "\nProduction-  1990-2005"
+                                                  "\nTop speed:191 MPH")
+if JDM == "EK9":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- 2 door hatchback"
+                                                  "\nLayout-Front engine, front wheel drive(F-F)"
+                                                  "\nEngine type-  1.6 L B16B Inline 4"
+                                                  "\nHorsepower- 182 hp"
+                                                  "\nTorque-160 NM"
+                                                  "\nTransmission-5 speed manual"
+                                                  "\nWeight- 2,403 lb(1,090 kg)"
+                                                  "\nProduction-  1997-2000"
+                                                  "\nTop speed:146 MPH")
+
+if JDM == "Toyota":
     JDM = input("Please select which Toyota you wish to select. "
                 "\nToyota"
                 "\nSupra A70"
@@ -92,15 +126,136 @@ elif JDM == "Toyota":
                 "\nMR2"
                 "\nCorolla AE86 Trueno"
                 "\n:")
+if JDM == "Supra A70":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- coupe"
+                                                  "\nLayout- front engine, rear wheel drive"
+                                                  "\nEngine type- Toyota 7m -GTE (Modified CT26 Turbo"
+                                                  "\nHorsepower- 267 hp"
+                                                  "\nTorque- 264 lb -ft"
+                                                  "\nTransmission-5 speed manual, 4 speed automatic"
+                                                  "\nWeight- 3,219-3,616 lbs(manual) 3,483-3,792 lbs(automatic)"
+                                                  "\nProduction-  1986-1993"
+                                                  "\nTop speed: 144 mph"
+                                                  "\n0-60: 6.9 seconds")
+if JDM == "Supra RZ":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- Coupe"
+                                                  "\nLayout-front engine, rear wheel drive"
+                                                  "\nEngine type- I6, 2JZ"
+                                                  "\nHorsepower- 171 hp"
+                                                  "\nTorque- 203 lb -ft"
+                                                  "\nTransmission-6 speed manual"
+                                                  "\nWeight- 3,616 lb(1,640 kg)"
+                                                  "\nProduction-  1993-2002"
+                                                  "\nTop speed: 155 mph"
+                                                  "\n0-60:5.3 seconds")
+if JDM == "Soarer 2.5 GT TT":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- 2 door coupe"
+                                                  "\nLayout- Front engine, Rear wheel drive"
+                                                  "\nEngine type-3.0 2JZ-GE I6(JZZ31)"
+                                                  "\nmHorsepower- 222 hp"
+                                                  "\nTorque- 210 lb -ft"
+                                                  "\nTransmission- 5 speed manual,4 or 5 speed automatic"
+                                                  "\nWeight- 3,395-3,814 Ib(1,540 kg-1,730 kg)"
+                                                  "\nProduction-  1991-2000"
+                                                  "\nTop speed:146-156 mph"
+                                                  "\n0-60:7.4 seconds")
+if JDM == "MR2":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- Coupe"
+                                                  "\nLayout- Mid engine, rear wheel drive"
+                                                  "\nEngine type- 2.2 L 5s -FE Inline 4"
+                                                  "\nHorsepower-  200 hp"
+                                                  "\nTorque- 137 lb -ft"
+                                                  "\nTransmission-5 speed manual, 4 speed automatic"
+                                                  "\nWeight- 2,579 lb(1170 kg)"
+                                                  "\nProduction-  1989-1999"
+                                                  "\nTop speed: 152 mph"
+                                                  "\n0-60:6.5")
+if JDM == "Corolla AE86 Trueno":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- Compact . 2 door"
+                                                  "\nLayout- Front engine, rear wheel drive"
+                                                  "\nEngine type-  1.6 L 4a-GEU Inline 4 DOHC"
+                                                  "\nHorsepower- 122 hp"
+                                                  "\nTorque- 108 lb -ft"
+                                                  "\nTransmission-5 speed manual"
+                                                  "\nWeight- 2138 lbs(970 kg)"
+                                                  "\nProduction-  1983-1987"
+                                                  "\nTop speed: 118 mph"
+                                                  "\n0-60: 8.6 seconds")
 if JDM == "Mazda":
     JDM = input("Please select which Mazda model  you wish to select. "
-                "\nMazda RX 7 FD35"
+                "\nRX 7 FD35"
                 "\nRX 7 FC35"
                 "\nMiata mx5 NA"
                 "\nMiata mx5 NB"
                 "\nRX 8"
                 "\n: ")
-elif JDM == "Mitsubishi":
+if JDM == "RX 7 FD35":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- 2 seater Coupe"
+                                                  "\nLayout-Front Mid engine, Rear wheel drive"
+                                                  "\nEngine type-  1.3 L TT 13B-REW Twin rotor(Rotary engine)"
+                                                  "\nHorsepower- 252 hp"
+                                                  "\nTorque-217 lb -ft"
+                                                  "\nTransmission-5 speed manual"
+                                                  "\nWeight- 1,260 kg (2,778 lb)"
+                                                  "\nProduction-  1992-2002"
+                                                  "\nTop speed: 160 MPH")
+if JDM == "RX 7 FC35":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- 2 DOOR COUPE"
+                                                  "\nLayout-Front Mid engine, Rear wheel drive"
+                                                  "\nEngine type-1.3 L 13B VIDEO (S4)"
+                                                  "\nHorsepower-  185 hp"
+                                                  "\nTorque- 25.0 kg-m"
+                                                  "\nTransmission-5 Speed manual"
+                                                  "\nWeight- 2,626-3,492 lb(1,223-1,584 kg)"
+                                                  "\nProduction-  1985-1992"
+                                                  "\nTop speed:120 MPH"
+                                                  "\n0-60:")
+if JDM == "Miata mx5 NA":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- 2 door  coupe"
+                                                  "\nLayout-Front mid engine,Rear wheel drive"
+                                                  "\nEngine type-1,598 cc B6ZE(RS)DOHC Inline 4"
+                                                  "\nHorsepower-   128hp"
+                                                  "\nTorque- 110 lb -ft"
+                                                  "\nTransmission- 5 Speed manual"
+                                                  "\nWeight- 2,120 IB(960 Kg)"
+                                                  "\nProduction-  1989-1997"
+                                                  "\nTop speed:116 MPH"
+                                                  "\n0-60:")
+if JDM == "Miata mx5 NB":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style-  2 door coupe/convertible"
+                                                  "\nLayout-Front mid engine(Rear wheel drive)"
+                                                  "\nEngine type-1.8 L BP-5A Inline 4"
+                                                  "\nHorsepower-  140 hp"
+                                                  "\nTorque- 119 lb -ft"
+                                                  "\nTransmission-5 or 6 speed manual transmission"
+                                                  "\nWeight- 2,348 IB(1,065 KG)"
+                                                  "\nProduction-  1998-2005"
+                                                  "\nTop speed:127 MPH"
+                                                  "\n0-60:")
+if JDM == "RX 8":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- 4 door quad coupe"
+                                                  "\nLayout-Front mid engine, rear wheel drive"
+                                                  "\nEngine type- 1.3 L RENESIS "
+                                                  "\nHorsepower- 189-238 hp"
+                                                  "\nTorque- 159 lb -ft"
+                                                  "\nTransmission-5 or 6 speed manual"
+                                                  "\n4 and 6 speed automatic"
+                                                  "\nWeight- Manual-2,886-3,027 lb(1,309-1,373 kg)"
+                                                  "\nProduction-  2003-2012"
+                                                  "\nTop speed: 145 MPH"
+                                                  "\n0-60:6.4 seconds")
+
+if JDM == "Mitsubishi":
     JDM = input("Please select which Mitsubishi model you wish to select."
                 "\nMitsubishi "
                 "\nGTO TT "
@@ -109,6 +264,68 @@ elif JDM == "Mitsubishi":
                 "\nLance evo VI "
                 "\nLance Evo VIII"
                 "\n:")
+if JDM == "GTO TT":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- 2 door liftback coupe"
+                                                  "\nLayout-Transverse front engine.4WD"
+                                                  "\nEngine type-3.0 L 6G72 DOHC 24v TT V6"
+                                                  "\nHorsepower-276 hp"
+                                                  "\nTorque- 308 lb -ft"
+                                                  "\nTransmission-5 or 6 speed manual"
+                                                  "\n4 speed automatic"
+                                                  "\nWeight- 3,131(IB) 1,420(KG)"
+                                                  "\nProduction- 1990-2000 "
+                                                  "\nTop speed: 160 MPH"
+                                                  "\n0-60: 5.9")
+if JDM == "FTO":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- 2 door coupe"
+                                                  "\nLayout-Front engine , front wheel drive"
+                                                  "\nEngine type-1.8 L 4G93 SOHC 16V Inline 4"
+                                                  "\nHorsepower- 123 hp"
+                                                  "\nTorque- 199 NM"
+                                                  "\nTransmission-5 speed manual"
+                                                  "\n4 OR 5 speed automatic"
+                                                  "\nWeight- 1,100-1,210(KG)2,425-2,668(IB)"
+                                                  "\nProduction-  1994-2000"
+                                                  "\nTop speed:140 MPH"
+                                                  "\n0-60:6.9 seconds")
+if JDM == "Lance Evo iii":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- Sports sedan"
+                                                  "\nLayout- All wheel drive"
+                                                  "\nEngine type-2.0 L 4G63 I4 Turbocharged"
+                                                  "\nHorsepower-266  hp"
+                                                  "\nTorque- 309 Nm"
+                                                  "\nTransmission-5 speed manual"
+                                                  "\nWeight- 2,624 lb-2,778lb(1,190-1,260 kg)"
+                                                  "\nProduction- 1995-1996"
+                                                  "\nTop speed:  147 MPH"
+                                                  "\n0-60:4.5 seconds")
+if JDM == "Lance evo VI":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- Sports sedan"
+                                                  "\nLayout-All wheel drive"
+                                                  "\nEngine type-2.0 L 4G63 Inline four engine"
+                                                  "\nHorsepower- 276hp"
+                                                  "\nTorque- 275 lb -ft"
+                                                  "\nTransmission- 5 speed manual"
+                                                  "\nWeight- 2,778-2,998 lb(1,260 kg-1,360 kg)"
+                                                  "\nProduction-  1999-2001"
+                                                  "\nTop speed:155 MPH"
+                                                  "\n0-60:5 seconds")
+if JDM == "Lance Evo VIII":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- Sports sedan"
+                                                  "\nLayout- All wheel drive"
+                                                  "\nEngine type-2.0 L 4G63 Inline 4"
+                                                  "\nHorsepower- 276 hp"
+                                                  "\nTorque- 295 lb -ft"
+                                                  "\nTransmission-5 or 6 speed manual,"
+                                                  "\nWeight- 2,888-3,109lb(1,310-1,400 kg)"
+                                                  "\nProduction-  2003-2005"
+                                                  "\nTop speed:157 MPH"
+                                                  "\n0-60:3.5 SECONDS")
 if JDM == "Nissan":
     JDM = input("Please select which Nissan model you wish to select."
                 "\nNissan "
@@ -118,15 +335,148 @@ if JDM == "Nissan":
                 "\nSilvia S15 "
                 "\nSilvia S14"
                 "\nFairlady Z 300ZX "
-                "\nFairlady 240z, "
+                "\nFairlady 240z "
                 "\nFairlady Z 350Z"
                 "\n:")
-elif JDM == "Subaru":
+if JDM == "Skyline R34":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- 2 door coupe"
+                                                  "\nLayout-front engine, 4WD"
+                                                  "\nEngine type- 2.6 L TT RB26DETT I6"
+                                                  "\nHorsepower- 166 hp"
+                                                  "\nTorque- 173 lb -ft"
+                                                  "\nTransmission-5 or 6 speed manual"
+                                                  "\nWeight- 3,673 lbs(1666 kg)"
+                                                  "\nProduction-  1998-2002"
+                                                  "\nTop speed:165 mph"
+                                                  "\n0-60:4.8 second")
+if JDM == "Skyline R33":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- Coupe"
+                                                  "\nLayout- Front, All wheel drive"
+                                                  "\nEngine type- RB26DETT I6 Twincam,TT Intercooled"
+                                                  "\nHorsepower- 276 hp"
+                                                  "\nTorque- 173 lb -ft"
+                                                  "\nTransmission-5 speed manual"
+                                                  "\nWeight- 3530 lbs(1601 kg)"
+                                                  "\nProduction-  1995-1998"
+                                                  "\nTop speed:156 mph"
+                                                  "\n0-60: 5.2 seconds")
+if JDM == "Skyline R32":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- Coupe"
+                                                  "\nLayout- front engine, all wheel drive"
+                                                  "\nEngine type-RB26DETT I6 Twincam,TT Intercooled"
+                                                  "\nHorsepower-  280 hp"
+                                                  "\nTorque- 260 lb -ft"
+                                                  "\nTransmission-5 speed manual"
+                                                  "\nWeight- 3153 lbs(1430 kg)"
+                                                  "\nProduction-  1989-1994"
+                                                  "\nTop speed:156 mph"
+                                                  "\n0-60:5.6 seconds")
+if JDM == "Silvia S15":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- 2 door coupe "
+                                                  "\nLayout- Front engine, rear wheel drive"
+                                                  "\nEngine type- 2.0 L SR20DE Inline 4"
+                                                  "\nHorsepower- 250 hp"
+                                                  "\nTorque- 142 lb -ft"
+                                                  "\nTransmission- 4 speed automatic, 5 speed manual"
+                                                  "\nWeight- 2646 lbs(1200 kg)"
+                                                  "\nProduction-  1999-2002"
+                                                  "\nTop speed: 152 mph"
+                                                  "\n0-60:5.5 seconds")
+if JDM == "Silvia S14":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- Coupe"
+                                                  "\nLayout- Front engine, rear wheel drive"
+                                                  "\nEngine type-  2.0 SR20DE I4"
+                                                  "\nHorsepower-  197 hp"
+                                                  "\nTorque-  195 lb -ft"
+                                                  "\nTransmission- 5 speed manual 4 speed automatic"
+                                                  "\nWeight-  2762 lbs( 1253kg)"
+                                                  "\nProduction-  1993-1998"
+                                                  "\nTop speed:  146 mph"
+                                                  "\n0-60:  7.5 seconds")
+if JDM == "Fairlady Z 300ZX":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- Coupe"
+                                                  "\nLayout- front engine, rear wheel drive"
+                                                  "\nEngine type- 3.0 VG30DE V6"
+                                                  "\nHorsepower- 222 hp"
+                                                  "\nTorque- 198 lb -ft"
+                                                  "\nTransmission-5 speed manual, 4 speed automatic"
+                                                  "\nWeight- 3329-3538 lbs(1510-1605 kg)"
+                                                  "\nProduction-  1989-2000"
+                                                  "\nTop speed: 155 mph"
+                                                  "\n0-60: 5-6 seconds")
+if JDM == "Fairlady 240z":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- 3 door hatchback coupe"
+                                                  "\nLayout-front engine, rear wheel drive"
+                                                  "\nEngine type- 2.4 L L24 I6"
+                                                  "\nHorsepower- 151 hp"
+                                                  "\nTorque- 146 lb -ft"
+                                                  "\nTransmission-3 speed automatic, 4 or 5 speed manual"
+                                                  "\nWeight- 2,301.6 lbs(1,044 kg)"
+                                                  "\nProduction-  1969-1973"
+                                                  "\nTop speed: 126 mph"
+                                                  "\n0-60: 8 seconds")
+if JDM == "Fairlady Z 350Z":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- Hatchback coupe/roadster"
+                                                  "\nLayout-Front engine, rear wheel drive"
+                                                  "\nEngine type-3.5 L VQ35DE V6"
+                                                  "\nHorsepower- 287 hp"
+                                                  "\nTorque- 276 lb -ft"
+                                                  "\nTransmission-5 speed automatic, 6 speed manual"
+                                                  "\nWeight- 3,188-3,602 lbs(1,446-1,634 kg)"
+                                                  "\nProduction-  2002-2008"
+                                                  "\nTop speed:155 mph"
+                                                  "\n0-60: 1.2 seconds")
+if JDM == "Subaru":
     JDM = input("Please select which Subaru model you wish to select."
                 "(\nSubaru "
                 "\nImpreza WRX STI "
                 "\nImpreza WRX STI Version VI "
-                "\nSubarau BRZ):")
+                "\nBRZ"
+                "\n:")
+if JDM == "Impreza WRX STI":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- 4 door saloon"
+                                                  "\nLayout-front engine, all wheel drive"
+                                                  "\nEngine type-Boxer 4, turbocharged,16 v"
+                                                  "\nHorsepower- 276 hp"
+                                                  "\nTorque- 193 lb -ft"
+                                                  "\nTransmission-6 speed manual"
+                                                  "\nWeight- 3307 lbs(1500 kg)"
+                                                  "\nProduction-  2000-2007"
+                                                  "\nTop speed: 174 mph"
+                                                  "\n0-60:4.6 seconds")
+if JDM == "Impreza WRX STI Version VI":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- 4 door saloon"
+                                                  "\nLayout-front engine,all wheel drive"
+                                                  "\nEngine type- 16 valve DOHC boxer 4, turbocharged"
+                                                  "\nHorsepower- 276 hp"
+                                                  "\nTorque- 251 lb -ft"
+                                                  "\nTransmission-5 speed manual"
+                                                  "\nWeight- 2800 lbs(1270 kg)"
+                                                  "\nProduction-  1992-2000"
+                                                  "\nTop speed: 152 mph"
+                                                  "\n0-60: 4.8 seconds")
+elif JDM == "BRZ":
+    print("Tech specs of " + market + " " + JDM + "."
+                                                  "\nBody Style- 2 door fastback coupe"
+                                                  "\nLayout- front engine, rear wheel drive"
+                                                  "\nEngine type-2.0 L 4U-GSE-FA20 H4"
+                                                  "\nHorsepower- 197-204hp"
+                                                  "\nTorque-151-156 lb -ft"
+                                                  "\nTransmission-6 speed manual, 6 speed automatic"
+                                                  "\nWeight- 2,624-2,800 lb(1,190-1,270 kg)"
+                                                  "\nProduction-2012-present"
+                                                  "\nTop speed:143 mph"
+                                                  "\n0-60:6.4 seconds")
 print()
 TOD = input("Select the time of day you wish to drive."
             "\nMorning🌅"
@@ -206,13 +556,13 @@ elif Bayshore == "Kei-car":
 
 Bayshore = input("Current Balance: ¥" + str(yen))
 dajou = input("As you cruise in your  " + market + " " + JDM + ", "
-               "\nyou notice another Hashriya driving."
-               "\nYou are thinking about challenging him."
-               "\nHe flickers at you and wishes to challenge you... "
-               "\nDo you...."
-               "\nAccept the challenge"
-               "\nPretend he isn't there, and go about your way"
-               "\n:")
+                                                               "\nyou notice another Hashriya driving."
+                                                               "\nYou are thinking about challenging him."
+                                                               "\nHe flickers at you and wishes to challenge you... "
+                                                               "\nDo you...."
+                                                               "\nAccept the challenge"
+                                                               "\nPretend he isn't there, and go about your way"
+                                                               "\n:")
 print()
 print()
 # Option 1(Challenge 1)
@@ -231,17 +581,17 @@ else:
     print("GO!")
 # Option 2 Cop Shows up
 input("A intense head to head taking place along the Kanegawa tunnel."
-               "\nOne moment your ahead, the other moment, your opponent is ahead."
-               "\nPushing your  " + market + " " + JDM + " to the limit"
-                                                         "\nHowever, this intense head to head is brought to a halt once you exit out the tunnel..."
-                                                         "\nYou spot  a black and white Toyota crown police car!🚔🚔"
-                                                         "\nSirens start wailing."
-                                                         "\nBecause  you don't want to get into more trouble. You decide to pull over.")
+      "\nOne moment your ahead, the other moment, your opponent is ahead."
+      "\nPushing your  " + market + " " + JDM + " to the limit"
+                                                "\nHowever, this intense head to head is brought to a halt once you exit out the tunnel..."
+                                                "\nYou spot  a black and white Toyota crown police car!🚔🚔"
+                                                "\nSirens start wailing."
+                                                "\nBecause  you don't want to get into more trouble. You decide to pull over.")
 
 # Pull over result
-input("🗣👮🏻-Good "+TOD+".")
+input("🗣👮🏻-Good " + TOD + ".")
 print()
-input("🗣 you- Good "+TOD+" officer.")
+input("🗣 you- Good " + TOD + " officer.")
 print()
 input("👮🏻-I am Sergeant Yoshida. Im a currently part of the traffic bureau((交通部))"
       "\nof the  Tokyo Metropolitan Police(警視庁)")
@@ -257,16 +607,16 @@ print()
 input("Anyway, I must fine you ¥15000 for a speeding violation.")
 # Pull over actual choices
 osaka = input("\nWhile the cop goes to his vehicle"
-          "\nYou have a choice of either escaping or just staying"
-           "\nDo you...... escape or stay?"
-           "\n:")
+              "\nYou have a choice of either escaping or just staying"
+              "\nDo you...... escape or stay?"
+              "\n:")
 if osaka == "stay":
     print("🗣👮-Okay Sir, this just  a warning, if you are found street racing again, you might be arrested"
           "\nand  your car can potentially become in possession of the Tokyo Metropolitan Police.")
     input("🗣you- Understood Officer."
-          "\n🗣you- Have a wonderful "+TOD+" officer."
-          "\nAnyway you pay the fine, and go about you way."
-          "\nGAME OVER")
+          "\n🗣you- Have a wonderful " + TOD + " officer."
+                                               "\nAnyway you pay the fine, and go about you way."
+                                               "\nGAME OVER")
     yen -= 15000
     osaka = input("Current Balance: ¥" + str(yen))
     exit()
@@ -340,6 +690,40 @@ if yokohama == "Honda":
                      "\nNsx(NC1)"
                      "\nCivic EK9"
                      "\n:")
+    if yokohama == "S2000":
+        print("Tech specs of " + market + " " + JDM + "."
+                                                      "\nBody Style-2  door roadster"
+                                                      "\nLayout-Front engine and Rear wheel drive"
+                                                      "\nEngine type-  Naturally Aspirated inline 4"
+                                                      "\nHorsepower-237 hp"
+                                                      "\nTorque-162 lb per feet"
+                                                      "\nTransmission-6 speed manual"
+                                                      "\nWeight-1,250 kg(2,756 lb)"
+                                                      "\nProduction- 1999-2009"
+                                                      "\nTop speed:160 mph")
+    elif yokohama == "Nsx(NC1)":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- 2 door coupe,2 door targa top"
+                                                      "\nLayout- Transverse mid-engine,RWD"
+                                                      "\nEngine type-  Honda C30A V6"
+                                                      "\nHorsepower- 270 hp"
+                                                      "\nTorque-210 lb-ft"
+                                                      "\nTransmission-5 OR 6 SPEED MANUAL"
+                                                      "\nWeight- 3,020 lb(1,370 kg)"
+                                                      "\nProduction-  1990-2005"
+                                                      "\nTop speed:191 MPH")
+    if yokohama == "EK9":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- 2 door hatchback"
+                                                      "\nLayout-Front engine, front wheel drive(F-F)"
+                                                      "\nEngine type-  1.6 L B16B Inline 4"
+                                                      "\nHorsepower- 182 hp"
+                                                      "\nTorque-160 NM"
+                                                      "\nTransmission-5 speed manual"
+                                                      "\nWeight- 2,403 lb(1,090 kg)"
+                                                      "\nProduction-  1997-2000"
+                                                      "\nTop speed:146 MPH")
+
 elif yokohama == "Toyota":
     yokohama = input("Please select which Toyota you wish to select. "
                      "\nToyota"
@@ -349,6 +733,66 @@ elif yokohama == "Toyota":
                      "\nMR2"
                      "\nCorolla AE86 Trueno"
                      "\n:")
+if yokohama == "Supra A70":
+    print("Tech specs of " + market + " " + yokohama + "."
+                                                  "\nBody Style- coupe"
+                                                  "\nLayout- front engine, rear wheel drive"
+                                                  "\nEngine type- Toyota 7m -GTE (Modified CT26 Turbo"
+                                                  "\nHorsepower- 267 hp"
+                                                  "\nTorque- 264 lb -ft"
+                                                  "\nTransmission-5 speed manual, 4 speed automatic"
+                                                  "\nWeight- 3,219-3,616 lbs(manual) 3,483-3,792 lbs(automatic)"
+                                                  "\nProduction-  1986-1993"
+                                                  "\nTop speed: 144 mph"
+                                                  "\n0-60: 6.9 seconds")
+if yokohama == "Supra RZ":
+    print("Tech specs of " + market + " " + yokohama + "."
+                                                  "\nBody Style- Coupe"
+                                                  "\nLayout-front engine, rear wheel drive"
+                                                  "\nEngine type- I6, 2JZ"
+                                                  "\nHorsepower- 171 hp"
+                                                  "\nTorque- 203 lb -ft"
+                                                  "\nTransmission-6 speed manual"
+                                                  "\nWeight- 3,616 lb(1,640 kg)"
+                                                  "\nProduction-  1993-2002"
+                                                  "\nTop speed: 155 mph"
+                                                  "\n0-60:5.3 seconds")
+if yokohama == "Soarer 2.5 GT TT":
+    print("Tech specs of " + market + " " + yokohama + "."
+                                                  "\nBody Style- 2 door coupe"
+                                                  "\nLayout- Front engine, Rear wheel drive"
+                                                  "\nEngine type-3.0 2JZ-GE I6(JZZ31)"
+                                                  "\nmHorsepower- 222 hp"
+                                                  "\nTorque- 210 lb -ft"
+                                                  "\nTransmission- 5 speed manual,4 or 5 speed automatic"
+                                                  "\nWeight- 3,395-3,814 Ib(1,540 kg-1,730 kg)"
+                                                  "\nProduction-  1991-2000"
+                                                  "\nTop speed:146-156 mph"
+                                                  "\n0-60:7.4 seconds")
+if yokohama == "MR2":
+    print("Tech specs of " + market + " " + yokohama + "."
+                                                  "\nBody Style- Coupe"
+                                                  "\nLayout- Mid engine, rear wheel drive"
+                                                  "\nEngine type- 2.2 L 5s -FE Inline 4"
+                                                  "\nHorsepower-  200 hp"
+                                                  "\nTorque- 137 lb -ft"
+                                                  "\nTransmission-5 speed manual, 4 speed automatic"
+                                                  "\nWeight- 2,579 lb(1170 kg)"
+                                                  "\nProduction-  1989-1999"
+                                                  "\nTop speed: 152 mph"
+                                                  "\n0-60:6.5")
+if yokohama == "Corolla AE86 Trueno":
+    print("Tech specs of " + market + " " + yokohama + "."
+                                                  "\nBody Style- Compact . 2 door"
+                                                  "\nLayout- Front engine, rear wheel drive"
+                                                  "\nEngine type-  1.6 L 4a-GEU Inline 4 DOHC"
+                                                  "\nHorsepower- 122 hp"
+                                                  "\nTorque- 108 lb -ft"
+                                                  "\nTransmission-5 speed manual"
+                                                  "\nWeight- 2138 lbs(970 kg)"
+                                                  "\nProduction-  1983-1987"
+                                                  "\nTop speed: 118 mph"
+                                                  "\n0-60: 8.6 seconds")
 if yokohama == "Mazda":
     yokohama = input("Please select which Mazda model  you wish to select. "
                      "\nMazda RX 7 FD35"
@@ -357,6 +801,66 @@ if yokohama == "Mazda":
                      "\nMiata mx5 NB"
                      "\nRX 8"
                      "\n: ")
+    if yokohama == "RX 7 FD35":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- 2 seater Coupe"
+                                                      "\nLayout-Front Mid engine, Rear wheel drive"
+                                                      "\nEngine type-  1.3 L TT 13B-REW Twin rotor(Rotary engine)"
+                                                      "\nHorsepower- 252 hp"
+                                                      "\nTorque-217 lb -ft"
+                                                      "\nTransmission-5 speed manual"
+                                                      "\nWeight- 1,260 kg (2,778 lb)"
+                                                      "\nProduction-  1992-2002"
+                                                      "\nTop speed: 160 MPH")
+    if yokohama == "RX 7 FC35":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- 2 DOOR COUPE"
+                                                      "\nLayout-Front Mid engine, Rear wheel drive"
+                                                      "\nEngine type-1.3 L 13B VIDEO (S4)"
+                                                      "\nHorsepower-  185 hp"
+                                                      "\nTorque- 25.0 kg-m"
+                                                      "\nTransmission-5 Speed manual"
+                                                      "\nWeight- 2,626-3,492 lb(1,223-1,584 kg)"
+                                                      "\nProduction-  1985-1992"
+                                                      "\nTop speed:120 MPH"
+                                                      "\n0-60:")
+    if yokohama == "Miata mx5 NA":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- 2 door  coupe"
+                                                      "\nLayout-Front mid engine,Rear wheel drive"
+                                                      "\nEngine type-1,598 cc B6ZE(RS)DOHC Inline 4"
+                                                      "\nHorsepower-   128hp"
+                                                      "\nTorque- 110 lb -ft"
+                                                      "\nTransmission- 5 Speed manual"
+                                                      "\nWeight- 2,120 IB(960 Kg)"
+                                                      "\nProduction-  1989-1997"
+                                                      "\nTop speed:116 MPH"
+                                                      "\n0-60:")
+    if yokohama == "Miata mx5 NB":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style-  2 door coupe/convertible"
+                                                      "\nLayout-Front mid engine(Rear wheel drive)"
+                                                      "\nEngine type-1.8 L BP-5A Inline 4"
+                                                      "\nHorsepower-  140 hp"
+                                                      "\nTorque- 119 lb -ft"
+                                                      "\nTransmission-5 or 6 speed manual transmission"
+                                                      "\nWeight- 2,348 IB(1,065 KG)"
+                                                      "\nProduction-  1998-2005"
+                                                      "\nTop speed:127 MPH"
+                                                      "\n0-60:")
+    if yokohama == "RX 8":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- 4 door quad coupe"
+                                                      "\nLayout-Front mid engine, rear wheel drive"
+                                                      "\nEngine type- 1.3 L RENESIS "
+                                                      "\nHorsepower- 189-238 hp"
+                                                      "\nTorque- 159 lb -ft"
+                                                      "\nTransmission-5 or 6 speed manual"
+                                                      "\n4 and 6 speed automatic"
+                                                      "\nWeight- Manual-2,886-3,027 lb(1,309-1,373 kg)"
+                                                      "\nProduction-  2003-2012"
+                                                      "\nTop speed: 145 MPH"
+                                                      "\n0-60:6.4 seconds")
 elif yokohama == "Mitsubishi":
     yokohama = input("Please select which Mitsubishi model you wish to select."
                      "\nMitsubishi "
@@ -366,6 +870,68 @@ elif yokohama == "Mitsubishi":
                      "\nLance evo VI "
                      "\nLance Evo VIII"
                      "\n:")
+    if yokohama == "GTO TT":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- 2 door liftback coupe"
+                                                      "\nLayout-Transverse front engine.4WD"
+                                                      "\nEngine type-3.0 L 6G72 DOHC 24v TT V6"
+                                                      "\nHorsepower-276 hp"
+                                                      "\nTorque- 308 lb -ft"
+                                                      "\nTransmission-5 or 6 speed manual"
+                                                      "\n4 speed automatic"
+                                                      "\nWeight- 3,131(IB) 1,420(KG)"
+                                                      "\nProduction- 1990-2000 "
+                                                      "\nTop speed: 160 MPH"
+                                                      "\n0-60: 5.9")
+    if yokohama == "FTO":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- 2 door coupe"
+                                                      "\nLayout-Front engine , front wheel drive"
+                                                      "\nEngine type-1.8 L 4G93 SOHC 16V Inline 4"
+                                                      "\nHorsepower- 123 hp"
+                                                      "\nTorque- 199 NM"
+                                                      "\nTransmission-5 speed manual"
+                                                      "\n4 OR 5 speed automatic"
+                                                      "\nWeight- 1,100-1,210(KG)2,425-2,668(IB)"
+                                                      "\nProduction-  1994-2000"
+                                                      "\nTop speed:140 MPH"
+                                                      "\n0-60:6.9 seconds")
+    if yokohama == "Lance Evo iii":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- Sports sedan"
+                                                      "\nLayout- All wheel drive"
+                                                      "\nEngine type-2.0 L 4G63 I4 Turbocharged"
+                                                      "\nHorsepower-266  hp"
+                                                      "\nTorque- 309 Nm"
+                                                      "\nTransmission-5 speed manual"
+                                                      "\nWeight- 2,624 lb-2,778lb(1,190-1,260 kg)"
+                                                      "\nProduction- 1995-1996"
+                                                      "\nTop speed:  147 MPH"
+                                                      "\n0-60:4.5 seconds")
+    if yokohama == "Lance evo VI":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- Sports sedan"
+                                                      "\nLayout-All wheel drive"
+                                                      "\nEngine type-2.0 L 4G63 Inline four engine"
+                                                      "\nHorsepower- 276hp"
+                                                      "\nTorque- 275 lb -ft"
+                                                      "\nTransmission- 5 speed manual"
+                                                      "\nWeight- 2,778-2,998 lb(1,260 kg-1,360 kg)"
+                                                      "\nProduction-  1999-2001"
+                                                      "\nTop speed:155 MPH"
+                                                      "\n0-60:5 seconds")
+    if yokohama == "Lance Evo VIII":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- Sports sedan"
+                                                      "\nLayout- All wheel drive"
+                                                      "\nEngine type-2.0 L 4G63 Inline 4"
+                                                      "\nHorsepower- 276 hp"
+                                                      "\nTorque- 295 lb -ft"
+                                                      "\nTransmission-5 or 6 speed manual,"
+                                                      "\nWeight- 2,888-3,109lb(1,310-1,400 kg)"
+                                                      "\nProduction-  2003-2005"
+                                                      "\nTop speed:157 MPH"
+                                                      "\n0-60:3.5 SECONDS")
 if yokohama == "Nissan":
     yokohama = input("Please select which Nissan model you wish to select."
                      "\nNissan "
@@ -378,6 +944,102 @@ if yokohama == "Nissan":
                      "\nFairlady 240z, "
                      "\nFairlady Z 350Z"
                      "\n:")
+    if yokohama == "Skyline R34":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- 2 door coupe"
+                                                      "\nLayout-front engine, 4WD"
+                                                      "\nEngine type- 2.6 L TT RB26DETT I6"
+                                                      "\nHorsepower- 166 hp"
+                                                      "\nTorque- 173 lb -ft"
+                                                      "\nTransmission-5 or 6 speed manual"
+                                                      "\nWeight- 3,673 lbs(1666 kg)"
+                                                      "\nProduction-  1998-2002"
+                                                      "\nTop speed:165 mph"
+                                                      "\n0-60:4.8 second")
+    if yokohama == "Skyline R33":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- Coupe"
+                                                      "\nLayout- Front, All wheel drive"
+                                                      "\nEngine type- RB26DETT I6 Twincam,TT Intercooled"
+                                                      "\nHorsepower- 276 hp"
+                                                      "\nTorque- 173 lb -ft"
+                                                      "\nTransmission-5 speed manual"
+                                                      "\nWeight- 3530 lbs(1601 kg)"
+                                                      "\nProduction-  1995-1998"
+                                                      "\nTop speed:156 mph"
+                                                      "\n0-60: 5.2 seconds")
+    if yokohama == "Skyline R32":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- Coupe"
+                                                      "\nLayout- front engine, all wheel drive"
+                                                      "\nEngine type-RB26DETT I6 Twincam,TT Intercooled"
+                                                      "\nHorsepower-  280 hp"
+                                                      "\nTorque- 260 lb -ft"
+                                                      "\nTransmission-5 speed manual"
+                                                      "\nWeight- 3153 lbs(1430 kg)"
+                                                      "\nProduction-  1989-1994"
+                                                      "\nTop speed:156 mph"
+                                                      "\n0-60:5.6 seconds")
+    if yokohama == "Silvia S15":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- 2 door coupe "
+                                                      "\nLayout- Front engine, rear wheel drive"
+                                                      "\nEngine type- 2.0 L SR20DE Inline 4"
+                                                      "\nHorsepower- 250 hp"
+                                                      "\nTorque- 142 lb -ft"
+                                                      "\nTransmission- 4 speed automatic, 5 speed manual"
+                                                      "\nWeight- 2646 lbs(1200 kg)"
+                                                      "\nProduction-  1999-2002"
+                                                      "\nTop speed: 152 mph"
+                                                      "\n0-60:5.5 seconds")
+    if yokohama == "Silvia S14":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- Coupe"
+                                                      "\nLayout- Front engine, rear wheel drive"
+                                                      "\nEngine type-  2.0 SR20DE I4"
+                                                      "\nHorsepower-  197 hp"
+                                                      "\nTorque-  195 lb -ft"
+                                                      "\nTransmission- 5 speed manual 4 speed automatic"
+                                                      "\nWeight-  2762 lbs( 1253kg)"
+                                                      "\nProduction-  1993-1998"
+                                                      "\nTop speed:  146 mph"
+                                                      "\n0-60:  7.5 seconds")
+    if yokohama == "Fairlady Z 300ZX":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- Coupe"
+                                                      "\nLayout- front engine, rear wheel drive"
+                                                      "\nEngine type- 3.0 VG30DE V6"
+                                                      "\nHorsepower- 222 hp"
+                                                      "\nTorque- 198 lb -ft"
+                                                      "\nTransmission-5 speed manual, 4 speed automatic"
+                                                      "\nWeight- 3329-3538 lbs(1510-1605 kg)"
+                                                      "\nProduction-  1989-2000"
+                                                      "\nTop speed: 155 mph"
+                                                      "\n0-60: 5-6 seconds")
+    if yokohama == "Fairlady 240z":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- 3 door hatchback coupe"
+                                                      "\nLayout-front engine, rear wheel drive"
+                                                      "\nEngine type- 2.4 L L24 I6"
+                                                      "\nHorsepower- 151 hp"
+                                                      "\nTorque- 146 lb -ft"
+                                                      "\nTransmission-3 speed automatic, 4 or 5 speed manual"
+                                                      "\nWeight- 2,301.6 lbs(1,044 kg)"
+                                                      "\nProduction-  1969-1973"
+                                                      "\nTop speed: 126 mph"
+                                                      "\n0-60: 8 seconds")
+    if yokohama == "Fairlady Z 350Z":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- Hatchback coupe/roadster"
+                                                      "\nLayout-Front engine, rear wheel drive"
+                                                      "\nEngine type-3.5 L VQ35DE V6"
+                                                      "\nHorsepower- 287 hp"
+                                                      "\nTorque- 276 lb -ft"
+                                                      "\nTransmission-5 speed automatic, 6 speed manual"
+                                                      "\nWeight- 3,188-3,602 lbs(1,446-1,634 kg)"
+                                                      "\nProduction-  2002-2008"
+                                                      "\nTop speed:155 mph"
+                                                      "\n0-60: 1.2 seconds")
 elif yokohama == "Subaru":
     yokohama = input("Please select which Subaru model you wish to select."
                      "(\nSubaru"
@@ -385,6 +1047,43 @@ elif yokohama == "Subaru":
                      "\nImpreza WRX STI Version VI"
                      "\nSubarau BRZ"
                      "\n:")
+    if yokohama == "Impreza WRX STI":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- 4 door saloon"
+                                                      "\nLayout-front engine, all wheel drive"
+                                                      "\nEngine type-Boxer 4, turbocharged,16 v"
+                                                      "\nHorsepower- 276 hp"
+                                                      "\nTorque- 193 lb -ft"
+                                                      "\nTransmission-6 speed manual"
+                                                      "\nWeight- 3307 lbs(1500 kg)"
+                                                      "\nProduction-  2000-2007"
+                                                      "\nTop speed: 174 mph"
+                                                      "\n0-60:4.6 seconds")
+    if yokohama == "Impreza WRX STI Version VI":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- 4 door saloon"
+                                                      "\nLayout-front engine,all wheel drive"
+                                                      "\nEngine type- 16 valve DOHC boxer 4, turbocharged"
+                                                      "\nHorsepower- 276 hp"
+                                                      "\nTorque- 251 lb -ft"
+                                                      "\nTransmission-5 speed manual"
+                                                      "\nWeight- 2800 lbs(1270 kg)"
+                                                      "\nProduction-  1992-2000"
+                                                      "\nTop speed: 152 mph"
+                                                      "\n0-60: 4.8 seconds")
+    elif yokohama == "BRZ":
+        print("Tech specs of " + market + " " + yokohama + "."
+                                                      "\nBody Style- 2 door fastback coupe"
+                                                      "\nLayout- front engine, rear wheel drive"
+                                                      "\nEngine type-2.0 L 4U-GSE-FA20 H4"
+                                                      "\nHorsepower- 197-204hp"
+                                                      "\nTorque-151-156 lb -ft"
+                                                      "\nTransmission-6 speed manual, 6 speed automatic"
+                                                      "\nWeight- 2,624-2,800 lb(1,190-1,270 kg)"
+                                                      "\nProduction-2012-present"
+                                                      "\nTop speed:143 mph"
+                                                      "\n0-60:6.4 seconds")
+    print()
 # Stage 2 C1 outer
 parking = input("The next day......"
                 "\nWhile cruisin in your  " + sasuke + " " + yokohama + " around " + TOD + " you recieve a call from ya boi Hiroshi"
@@ -409,9 +1108,9 @@ city = input("You have just left Fujiwara's Tuning shop in Yokohama, "
              "\nand is now on the way to Daikoku parking lot. You arrive and meet the bois. "
              "\nYour homie hiroshi ask,"
              "\n🗣Hiroshi- hey " + playa + ", wanna go for a midnight run?"
-                                "\nStay"
-                                "\nGo"
-                                "\n:")
+                                           "\nStay"
+                                           "\nGo"
+                                           "\n:")
 if city == "Go":
     city = input("🗣Hiroshi- Bet. Wanna do a run on the Daikoku route to C1 inner?"
                  "\nyes"
@@ -549,12 +1248,12 @@ mods = input("As you and the homies head back to Daifoku parking. You see flashi
              "\nDamn near 10-15 police cars surrounded the parking.A sting operation!!"
              "\nand you just remember that is 7 day..."
              "\nBut yet you still stay in line for the inspection...."
-             "\n🗣👮🏻-Good "+TOD+", we are currently doing inspections for illegal car modifications."
-             "\nWe would like to see if you currently have these illegal modifications in your vehicle."
-              "\nIs there and illegal modifications installed in your car."
-             "\nyes"
-             "\nno"
-             "\n:")
+             "\n🗣👮🏻-Good " + TOD + ", we are currently doing inspections for illegal car modifications."
+                                      "\nWe would like to see if you currently have these illegal modifications in your vehicle."
+                                      "\nIs there and illegal modifications installed in your car."
+                                      "\nyes"
+                                      "\nno"
+                                      "\n:")
 print()
 if mods == "no":
     print("Very well. You passed inspection, have a wonderful day!")
@@ -758,10 +1457,10 @@ x = 10
 while x > 0:
     print(x)
     x -= 1
-input("listed below is your Manual Transmission pattern of your "+smokey+". ")
+input("listed below is your Manual Transmission pattern of your " + smokey + ". ")
 print()
 # Shifting intro.  6 gear stick shift layout.
-print  ("R"
+print("R"
       "\n|  1  3  5"
       "\n---|--|--|"
       "\n   2  4  6")
@@ -771,7 +1470,7 @@ bayline = input("All of a sudden you see 💨, and now realize that Smokey is ab
                 "\nNow you start driving, but now you have to shift gears."
                 "\nWhich gear are you going to shift to?")
 # Another 6 gear stick shift layout
-print  ("R"
+print("R"
       "\n|  1  3  5"
       "\n---|--|--|"
       "\n   2  4  6")
@@ -787,9 +1486,9 @@ input("📱 you- This is where the fun begins. ")
 aqua = input("Alright, don't lose hope yet, you still got a way to go. "
              "\nREMEMBER: THIS COURSE IS JUST ⬆️"
              "\nNow its time to shift gears again...."
-             "\nBTW, You are currently on "+bayline+" gear.")
+             "\nBTW, You are currently on " + bayline + " gear.")
 input("Which gear are you going to shift to.....")
-print  ("R"
+print("R"
       "\n|  1  3  5"
       "\n---|--|--|"
       "\n   2  4  6")
@@ -806,15 +1505,15 @@ input("📱Smokey- damn kid, you're actually coming up,")
 print()
 input("📱Smokey- But not for long...")
 print()
-input("Already on "+aqua+" gear, you must hit the clutch in order to go to the next gear of your choice."
-                  "\nBut while shifting, you are kinda excited you might beat Smokey.")
+input("Already on " + aqua + " gear, you must hit the clutch in order to go to the next gear of your choice."
+                             "\nBut while shifting, you are kinda excited you might beat Smokey.")
 print()
 # Clutch(Determines what happens in race if you hit release foot off clutch too quickly or slowly
 junction = input("But what you're about to do, will determine whether you win..."
                  "\nHaving your foot on the clutch, do you release your foot off the clutch...."
                  "\nquickly"
                  "\nslowly"
-                  "\n:")
+                 "\n:")
 if junction == "quickly":
     print("Oh shit you just stalled the car."
           "\n📱 Smokey- I thought you said escaped from the cops."
@@ -825,17 +1524,17 @@ if junction == "slowly":
     print("Great, now you're right behind  Smokey Nagata"
           "\n📱Smokey- nANI??? How did you manage to get right behind me?!?!?"
           "\n📱you-  Just like the simulations....")
-input("You somehow manage to align your "+smokey+" right behind Smokey's car,"
-      "\nYou have a high chance of actually winning this cat n mouse race.")
+input("You somehow manage to align your " + smokey + " right behind Smokey's car,"
+                                                     "\nYou have a high chance of actually winning this cat n mouse race.")
 # Final push of cat and mouse race(Smokey Nagata)
 print()
 input("But it all comes down to one more option.....")
 print()
-print  ("R"
+print("R"
       "\n|  1  3  5"
       "\n---|--|--|"
       "\n   2  4  6")
-print("PS: you're on "+aqua+" gear.")
+print("PS: you're on " + aqua + " gear.")
 print()
 finale = input("Since you're about to shift gears.."
                "\nBut you hit the clutch..."
@@ -860,42 +1559,42 @@ input("📱 You- So you thought I was lyin or somethin?!?!"
 print()
 input("📱 Smokey- Haven't done this on the aqualine since 97..Good times")
 print()
-input("You arrive at the Car meet on the aqualine on a calm "+TOD+". Cars of all kinds."
-      "\nSome stocked Skylines.  Some modified Silvia's and Supra. RX 7's tuned to the max"
-      "\nHell even some bozozku cars. ")
+input("You arrive at the Car meet on the aqualine on a calm " + TOD + ". Cars of all kinds."
+                                                                      "\nSome stocked Skylines.  Some modified Silvia's and Supra. RX 7's tuned to the max"
+                                                                      "\nHell even some bozozku cars. ")
 print()
 input("🗣Smokey- Oh, hey Koseki. Long time no see"
       "\n🗣Koseki- If ain't Smokey Nagata......")
 print()
 koseki = input("You turn around and see a red Mazda RX 7 FD35."
-      "\nA RX 7 with some unique car spats and a wild spoiler."
-      "\nKoseki san takes notice of your "+smokey+", and wants to duel with you on the Aqualine."
-      "\nDo you accept or deny?"
-      "\naccept"
-      "\ndeny"
-       "\n:")
+               "\nA RX 7 with some unique car spats and a wild spoiler."
+               "\nKoseki san takes notice of your " + smokey + ", and wants to duel with you on the Aqualine."
+                                                               "\nDo you accept or deny?"
+                                                               "\naccept"
+                                                               "\ndeny"
+                                                               "\n:")
 if koseki == "deny":
     print("🗣 Koseki-  It would've been fun if we could've duel..."
           "\nBut I understand.  Have a good night."
-          "\nYou drive into the breezy "+TOD+", going to whatever the roads take ya...."
-          "\nCONGRATULATIONS "+playa+"!! You have successfully Completed Hashiriya Undergrounds(Phase 1)!!")
+          "\nYou drive into the breezy " + TOD + ", going to whatever the roads take ya...."
+                                                 "\nCONGRATULATIONS " + playa + "!! You have successfully Completed Hashiriya Undergrounds(Phase 1)!!")
     exit()
 
 if koseki == "accept":
     print("Alright, good thing your boi Kosuke is here."
-           "\nNote: This is a cat and mouse race(you're the mouse. Koseki is the cat")
+          "\nNote: This is a cat and mouse race(you're the mouse. Koseki is the cat")
 nobita = input("\nBTW, do you want to change your car"
-           "\nyes"
-           "\nno"
-           "\n:")
+               "\nyes"
+               "\nno"
+               "\n:")
 if nobita == "no":
     print("Thats cool..."
           "\n🗣 Kosuke- I will start the Countdown!!!!")
 else:
     nobita = input("Hmm, which are do you want. Be quick about it"
-          "\nNissan Fairlady S130Z(Devil Z)"
-          "\nSkyline R32 GTR"
-          "\nFerrari Testarossa")
+                   "\nNissan Fairlady S130Z(Devil Z)"
+                   "\nSkyline R32 GTR"
+                   "\nFerrari Testarossa")
 if nobita == "Nissan Fairlady S130Z(Devil Z)":
     print("🗣 Koseki-  Be careful with that car...."
           "\nLegend has it that some died in it and now this car is (possessed)."
@@ -912,7 +1611,7 @@ else:
           "\nAs any Ferrari, its pretty fast with 385hp, making this thing a monster on the expressway."
           "\nWell, as long as the driver can handle it😉.")
 print()
-input("Since you have decided to select the "+nobita+", the race between you and Koseki will now commence")
+input("Since you have decided to select the " + nobita + ", the race between you and Koseki will now commence")
 print()
 input("Similar to before, this is just cat and mouse race between the Aqualine to the Bayshore route.")
 print()
@@ -920,15 +1619,15 @@ input("🗣 Kosuke- I will start the Countdown!!!!")
 
 x = 10
 while x > 0:
-        print(x)
-        x -= 1
+    print(x)
+    x -= 1
 print()
 print("GO!")
 print("And you're off!!!")
 
 input("Alright you're still in the front,"
-                 "\nBut you can see the RX 7 catching up."
-                 "\nDodging cars one by one and you are already nearing the exit of the aqualine.")
+      "\nBut you can see the RX 7 catching up."
+      "\nDodging cars one by one and you are already nearing the exit of the aqualine.")
 print()
 naruhito = input("Unfourantly,you see another 🚔."
                  "\nYou see two exits, one goes up⬆️ , the other goes left⬅️."
@@ -944,13 +1643,13 @@ if naruhito == "left":
 else:
     print("👮🏻🗣🚔- TOKYO METROPOLITAN POLICE. STOP YOUR VEHICLE!")
 print()
-input("Koseki- Shoot "+playa+".  Could've at least told me you're a wanted man")
+input("Koseki- Shoot " + playa + ".  Could've at least told me you're a wanted man")
 print()
 input("you- Hey man, what do you expect.  They got cameras setup in these tunnels nowadays.")
 print()
 input("You now end up breaking the toll booth station and end up fleeing the police"
       "\n🗣 you- Imma lay low for a bit."
       "\n🗣 Koseki- you better."
-      "\nYou go drive during a breezy and  "+TOD+", and go whatever the roads take you....")
-input("Congratulations "+playa+"!! You have successfully completed phase 1 of Hashiriya Undergrounds!! ")
+      "\nYou go drive during a breezy and  " + TOD + ", and go whatever the roads take you....")
+input("Congratulations " + playa + "!! You have successfully completed phase 1 of Hashiriya Undergrounds!! ")
 exit()
