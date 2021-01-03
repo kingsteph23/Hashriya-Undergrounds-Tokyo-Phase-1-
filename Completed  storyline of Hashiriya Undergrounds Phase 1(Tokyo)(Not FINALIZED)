@@ -77,6 +77,7 @@ JDM = input("Okay " + playa + "! Please select a Japanese Car Manufactuer"
                               "\nToyota"
                               "\n:")
 print()
+# Tech specs for Honda cars
 if JDM == "Honda":
     JDM = input("Please select which Honda  model you wish to select. "
                 "(\nS2000"
@@ -116,7 +117,8 @@ if JDM == "EK9":
                                                   "\nWeight- 2,403 lb(1,090 kg)"
                                                   "\nProduction-  1997-2000"
                                                   "\nTop speed:146 MPH")
-
+print()
+# tech specs of Toyota cars
 if JDM == "Toyota":
     JDM = input("Please select which Toyota you wish to select. "
                 "\nToyota"
@@ -186,6 +188,8 @@ if JDM == "Corolla AE86 Trueno":
                                                   "\nProduction-  1983-1987"
                                                   "\nTop speed: 118 mph"
                                                   "\n0-60: 8.6 seconds")
+    print()
+# tech specs of Mazda cars
 if JDM == "Mazda":
     JDM = input("Please select which Mazda model  you wish to select. "
                 "\nRX 7 FD35"
@@ -254,7 +258,8 @@ if JDM == "RX 8":
                                                   "\nProduction-  2003-2012"
                                                   "\nTop speed: 145 MPH"
                                                   "\n0-60:6.4 seconds")
-
+print()
+# tech specs of mitsubishi
 if JDM == "Mitsubishi":
     JDM = input("Please select which Mitsubishi model you wish to select."
                 "\nMitsubishi "
@@ -326,6 +331,8 @@ if JDM == "Lance Evo VIII":
                                                   "\nProduction-  2003-2005"
                                                   "\nTop speed:157 MPH"
                                                   "\n0-60:3.5 SECONDS")
+    print()
+# tech specs of Nissan
 if JDM == "Nissan":
     JDM = input("Please select which Nissan model you wish to select."
                 "\nNissan "
@@ -434,6 +441,8 @@ if JDM == "Fairlady Z 350Z":
                                                   "\nProduction-  2002-2008"
                                                   "\nTop speed:155 mph"
                                                   "\n0-60: 1.2 seconds")
+    print()
+# Tech specs of Subaru
 if JDM == "Subaru":
     JDM = input("Please select which Subaru model you wish to select."
                 "(\nSubaru "
@@ -478,6 +487,7 @@ elif JDM == "BRZ":
                                                   "\nTop speed:143 mph"
                                                   "\n0-60:6.4 seconds")
 print()
+# Time of day options
 TOD = input("Select the time of day you wish to drive."
             "\nMorning🌅"
             "\nEvening🌇"
@@ -492,7 +502,7 @@ mods = input("Do you wish to add modifications to your " + market + " " + JDM + 
                                                                                 "\nno"
                                                                                 "\n:")
 print()
-# City/course selection
+# Stage 1 beggining(Wangen sen)
 city = input("Wonderful choice " + playa + ". I see you got style.."
                                            "\nWelcome to Tokyo, Japan.  This stage will have 3 stages.Each with their own storyline."
                                            "\nThe Wangan sen stage, the C1 inner stage, and the Tokyo bay aqualine."
@@ -513,6 +523,7 @@ print()
 yen = 600000
 
 # Course 1 description
+input("Current Balance: ¥" + str(yen))
 input("Course name:Bayshore route(Wangen sen)"
       "\nTotal Length:43 Miles(70 km)"
       "\nCompleted Construction:1976"
@@ -643,13 +654,16 @@ if chase == "exit 8":
     print("Ehhh, he gave me the slip. I've lost him, breaking pursuit.")
     print()
 selector = input("Bueno.You have evaded arrest, but now you must swap your car or you'll get caught"
-                 "\nYou recieve a phone call from your friend Hiroshi, and he wants to you to a car meet"
-                 "\nat Daifoku parking lot near Yokohama. Do you accept?"
+                 "\nYou recieve a phone call from your friend Hiroshi,"
+                 "\n📱 Hiroshi- Yo, "+playa+", wanna meet up at Daikoku parking lot?"
+                 "\nDo you accept?"
                  "\naccept"
                  "\ndeny"
                  "\n:")
 if selector == "deny":
-    print("Thank you for playing my game..Have a wonderful day " + playa + "!!")
+    print("\n📱Hiroshi- maybe another time"
+          "\n📱you- Yeah, maybe another time...."
+          "\nThank you for playing my game..Have a wonderful day " + playa + "!!")
     exit()
 else:
     stage3 = input("Are you sure you wish to proceed to Stage 2 of Hashriya Undergrounds"
@@ -657,7 +671,9 @@ else:
                    "\nno"
                    "\n:")
 if stage3 == "no":
-    print("Thank you for playing my game..Have a wonderful day " + playa + "!!")
+    print("📱Hiroshi- maybe another time"
+          "\n📱you- Yeah, maybe another time...."
+          "Thank you for playing my game..Have a wonderful day " + playa + "!!")
     exit()
 else:
     print("Welcome to Stage 2:C1 Inner Loop.")
@@ -690,6 +706,7 @@ if yokohama == "Honda":
                      "\nNsx(NC1)"
                      "\nCivic EK9"
                      "\n:")
+# Tech specs of Honda cars
     if yokohama == "S2000":
         print("Tech specs of " + market + " " + JDM + "."
                                                       "\nBody Style-2  door roadster"
@@ -723,6 +740,8 @@ if yokohama == "Honda":
                                                       "\nWeight- 2,403 lb(1,090 kg)"
                                                       "\nProduction-  1997-2000"
                                                       "\nTop speed:146 MPH")
+        print()
+# Tech specs of Toyota
 
 elif yokohama == "Toyota":
     yokohama = input("Please select which Toyota you wish to select. "
@@ -793,6 +812,8 @@ if yokohama == "Corolla AE86 Trueno":
                                                   "\nProduction-  1983-1987"
                                                   "\nTop speed: 118 mph"
                                                   "\n0-60: 8.6 seconds")
+    print()
+# Tech specs of Mazda
 if yokohama == "Mazda":
     yokohama = input("Please select which Mazda model  you wish to select. "
                      "\nMazda RX 7 FD35"
@@ -861,6 +882,8 @@ if yokohama == "Mazda":
                                                       "\nProduction-  2003-2012"
                                                       "\nTop speed: 145 MPH"
                                                       "\n0-60:6.4 seconds")
+        print()
+# Tech specs of Mitsubishi
 elif yokohama == "Mitsubishi":
     yokohama = input("Please select which Mitsubishi model you wish to select."
                      "\nMitsubishi "
@@ -932,6 +955,8 @@ elif yokohama == "Mitsubishi":
                                                       "\nProduction-  2003-2005"
                                                       "\nTop speed:157 MPH"
                                                       "\n0-60:3.5 SECONDS")
+        print()
+# Tech specs of Nissan cars
 if yokohama == "Nissan":
     yokohama = input("Please select which Nissan model you wish to select."
                      "\nNissan "
@@ -1040,6 +1065,7 @@ if yokohama == "Nissan":
                                                       "\nProduction-  2002-2008"
                                                       "\nTop speed:155 mph"
                                                       "\n0-60: 1.2 seconds")
+# Tech  specs of Subaru cars
 elif yokohama == "Subaru":
     yokohama = input("Please select which Subaru model you wish to select."
                      "(\nSubaru"
@@ -1090,12 +1116,14 @@ parking = input("The next day......"
                                                                                            "\nHe ask you to come to a car meet around  Daifoku Parking lot."
                                                                                            "\nWanna go?"
                                                                                            "\nYes"
-                                                                                           "\nNo")
+                                                                                           "\nNo"
+                                                                                           "\n:")
 if parking == "yes":
     print("Lets goooo")
 else:
     print("You still coming G")
 # Actual start of Stage 2/Description
+input("Current Balance: ¥" + str(yen))
 input("Course name:C1 Inner Loop"
       "\nTotal Length:9.2 mi(14.8 km)"
       "\nCompleted Construction:1967"
@@ -1204,13 +1232,12 @@ print()
 # Choice after race incident
 # Tow truck option result
 if race == "Call a tow truck and dip":
-    race = input("She is thankful for your help, and understands you must go"
-                 "\nTwo of your homies ,Tadashi and Hiromori, suggests following the truck to make sure"
-                 "\nThe female driver arrives safely"
-                 "\nDo you want to come with the female driver?"
-                 "\nyes"
-                 "\nno"
-                 "\n:")
+   race = input("👩🏻‍💼-Thanks. I appreciate it alot."
+          "\n🧑🏻Hiroshi- yo "+playa+", do you want to follow her to the tuning shop?"
+          "\nTo make sure she arrives safely?"
+          "\nyes"
+          "\nno"
+          "\n:")
 print()
 print()
 if race == "yes":
@@ -1220,6 +1247,7 @@ if race == "yes":
 else:
     print("She still is thankful "
           "\nBut right before she leaves,she wants to give you something as a thank you gift......")
+
 
 # Tuning garage option result
 if race == "Take the car to the Yokohama tuning Garage":
@@ -1297,8 +1325,14 @@ if mods == "exit a":
           "\nYou go to your " + yokohama + ", at the impound lot, "
                                            "\nbut now, its stocked and stripped of its Mods..."
                                            "\nCant have shit in Tokyo🤧🤧💯💯"
-                                           "\nCurrent Balance:¥326000"
                                            "\nGAME OVER")
+    yen -= 3000
+    yen -= 100000
+    yen -= 50000
+    yen -= 45000
+    yen -= 10000
+    yen -= 100000
+    mods = input("Current Balance: ¥" + str(yen))
     exit()
 if mods == "exit b":
     print("Going over 150 MPH, You have successfully evaded arrest. "
@@ -1339,6 +1373,7 @@ if stage5 == "no":
 else:
     print("Welcome " + playa + " to the last and final stage of Hashriya Undergrounds. Tokyo Bay Aqualine....")
 # Start of the Tokyo Bay Aqualine stage 3.
+input("Current Balance: ¥" + str(yen))
 input("Course name:Tokyo Bay Aqua-line"
       "\nTotal length:14.7 mi(23.7 km)"
       "\nCompleted Construction:1997"
@@ -1594,7 +1629,8 @@ else:
     nobita = input("Hmm, which are do you want. Be quick about it"
                    "\nNissan Fairlady S130Z(Devil Z)"
                    "\nSkyline R32 GTR"
-                   "\nFerrari Testarossa")
+                   "\nFerrari Testarossa"
+                   "\n:")
 if nobita == "Nissan Fairlady S130Z(Devil Z)":
     print("🗣 Koseki-  Be careful with that car...."
           "\nLegend has it that some died in it and now this car is (possessed)."
@@ -1605,7 +1641,7 @@ elif nobita == "Skyline R32 GTR":
           "\nThe drivers name i think is Reina or something along those lines."
           "\nBut this AWD car is has some pretty good handing and acceleration and has a 300hp."
           "\nIn a nutshell. You'll be driving a pretty good car on the aqualine")
-else:
+if nobita == "Ferrari Testarossa":
     print("🗣 Koseki-  Ah, those fancy italian cars eh"
           "\nThe previous owner is some photographer by the name of Ishida"
           "\nAs any Ferrari, its pretty fast with 385hp, making this thing a monster on the expressway."
