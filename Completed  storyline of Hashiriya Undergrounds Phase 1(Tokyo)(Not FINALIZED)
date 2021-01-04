@@ -1,7 +1,7 @@
 print("_________________________________")
-print("|    🔰走り屋にわたって地下 🔰       |")
+print("|    🔰 走り屋にわたって地下  🔰       |")
 print("|                               |"
-      "\n|  🔰Hashriya Undergrounds🔰     |"
+      "\n|  🔰 Hashriya Undergrounds 🔰     |"
       "\n|       Phase 1(Tokyo)          |"
       "\n|_______________________________|")
 
@@ -16,34 +16,35 @@ else:
     print("Gotcha. but theres some things you should know.....")
 # Warning
 input("BEFORE WE GET STARTED")
-input("\nNote, there are some things you should know before starting this game"
-      "\n1:Everytime you respond to a question, make sure you type it EXACTLY how you see")
+input("\n Note, there are some things you should know before starting this game"
+      "\n 1:Everytime you respond to a question, make sure you type it EXACTLY how you see")
 input("For example,if you are required to respond to a question,such as a yes or no question"
       "\nif you select yes, write yes EXACTLY how you see it. If you select no, write it exactly how you see it.")
 input("Even if its a long response such as,Take the car to the tuning garage."
       "\nYou MUST type it exactly like this, or the computer will not read it."
       "\nSo be careful when writing your responses a and make sure you write it EXACTLY AS YOU SEE IT. ")
 print()
-input("2:Don't type another answer that isn't there"
-      "\nIf you are given a response where you have a option of yes or no, but you put yeezus as a answer..."
-      "\nIt will be marked either as a invalid answer, or you can potentially get a answer that you don't want"
-      "\nnor will it make sense.")
+input(" Don't type another answer that isn't there"
+      "\n If you are given a response where you have a option of yes or no, but you put yeezus as a answer..."
+      "\n It will be marked either as a invalid answer, or you can potentially get a answer that you don't want"
+      "\n nor will it make sense.")
 print()
-input("3:There are times where I may use Japanese words, but a majority of them i translated into English")
+input("There are times where I may use Japanese words,"
+      "\nbut a majority of them i translated into English")
 print()
-input("4:To anyone that speaks Japanese(especially fluently), mind my crappy Japanese. "
-      "\n日本語を話す人（特に流暢に）には、私の嫌な日本語を心に入れてください")
+input("To anyone that speaks Japanese(especially fluently), mind my crappy Japanese. "
+      "\n 日本語を話す人（特に流暢に）には、私の嫌な日本語を心に入れてください")
 print()
-input("5:Feedback and constructive criticism is greatly appreciated.  If you experience any bugs or issues with my game."
+input("Feedback and constructive criticism is greatly appreciated.  If you experience any bugs or issues with my game."
       "\nOr just general feedback(pros/cons)"
       "\nPlease mark it as a new issue on my github.")
 
 print()
 input("Also, because I ended up realizing that not so much people may not know so much about the Japanese car scene..."
-      "\nI made a reference table on the types of cars/courses in the game so people understand what i'm talking about 😉."
+      "\nI made a reference table on the types of cars/courses in the game so people understand what i'm talking about ."
       "\nAlso the links to my Github and Instagram is there as well if you want to check it out.")
 print()
-input("6:Have fun ;)")
+input("Have fun ;)")
 
 # Intro
 choice = input("Welcome to the land of the rising sun,Do you wish to start?(yes/no):").lower().strip()
@@ -265,9 +266,9 @@ if JDM == "Mitsubishi":
                 "\nMitsubishi "
                 "\nGTO TT "
                 "\nFTO "
-                "\nLance Evo iii "
-                "\nLance evo VI "
-                "\nLance Evo VIII"
+                "\nLancer Evo iii "
+                "\nLancer evo VI "
+                "\nLancer Evo VIII"
                 "\n:")
 if JDM == "GTO TT":
     print("Tech specs of " + market + " " + JDM + "."
@@ -295,7 +296,7 @@ if JDM == "FTO":
                                                   "\nProduction-  1994-2000"
                                                   "\nTop speed:140 MPH"
                                                   "\n0-60:6.9 seconds")
-if JDM == "Lance Evo iii":
+if JDM == "Lancer Evo iii":
     print("Tech specs of " + market + " " + JDM + "."
                                                   "\nBody Style- Sports sedan"
                                                   "\nLayout- All wheel drive"
@@ -307,7 +308,7 @@ if JDM == "Lance Evo iii":
                                                   "\nProduction- 1995-1996"
                                                   "\nTop speed:  147 MPH"
                                                   "\n0-60:4.5 seconds")
-if JDM == "Lance evo VI":
+if JDM == "Lancer evo VI":
     print("Tech specs of " + market + " " + JDM + "."
                                                   "\nBody Style- Sports sedan"
                                                   "\nLayout-All wheel drive"
@@ -319,7 +320,7 @@ if JDM == "Lance evo VI":
                                                   "\nProduction-  1999-2001"
                                                   "\nTop speed:155 MPH"
                                                   "\n0-60:5 seconds")
-if JDM == "Lance Evo VIII":
+if JDM == "Lancer Evo VIII":
     print("Tech specs of " + market + " " + JDM + "."
                                                   "\nBody Style- Sports sedan"
                                                   "\nLayout- All wheel drive"
@@ -600,20 +601,20 @@ input("A intense head to head taking place along the Kanegawa tunnel."
                                                 "\nBecause  you don't want to get into more trouble. You decide to pull over.")
 
 # Pull over result
-input("🗣👮🏻-Good " + TOD + ".")
+input(".👮‍♀️-Good " + TOD + ".")
 print()
-input("🗣 you- Good " + TOD + " officer.")
+input(".you- Good " + TOD + " officer.")
 print()
-input("👮🏻-I am Sergeant Yoshida. Im a currently part of the traffic bureau((交通部))"
+input(".SGT Yoshida- I am Sergeant Yoshida. Im a currently part of the traffic bureau((交通部))"
       "\nof the  Tokyo Metropolitan Police(警視庁)")
 print()
 input("you- Really? Well what did I do Officer")
 print()
-input("🗣👮-Sir you were going pulling a 160 MPH Speed run on the Wangan sen.")
+input(".SGT Yoshida- Sir you were going pulling a 160 MPH Speed run on the Wangan sen.")
 print()
-input("🗣you- How is that a problem....")
+input(". you- How is that a problem....")
 print()
-input("🗣👮-The speed limit is 50 mph......")
+input(".SGT Yoshida- The speed limit is 50 mph......")
 print()
 input("Anyway, I must fine you ¥15000 for a speeding violation.")
 # Pull over actual choices
@@ -622,10 +623,10 @@ osaka = input("\nWhile the cop goes to his vehicle"
               "\nDo you...... escape or stay?"
               "\n:")
 if osaka == "stay":
-    print("🗣👮-Okay Sir, this just  a warning, if you are found street racing again, you might be arrested"
+    print("Sergeant Yoshida- Okay Sir, this just  a warning, if you are found street racing again, you might be arrested"
           "\nand  your car can potentially become in possession of the Tokyo Metropolitan Police.")
-    input("🗣you- Understood Officer."
-          "\n🗣you- Have a wonderful " + TOD + " officer."
+    input("you- Understood Officer."
+          "\nyou- Have a wonderful " + TOD + " officer."
                                                "\nAnyway you pay the fine, and go about you way."
                                                "\nGAME OVER")
     yen -= 15000
@@ -655,14 +656,14 @@ if chase == "exit 8":
     print()
 selector = input("Bueno.You have evaded arrest, but now you must swap your car or you'll get caught"
                  "\nYou recieve a phone call from your friend Hiroshi,"
-                 "\n📱 Hiroshi- Yo, "+playa+", wanna meet up at Daikoku parking lot?"
+                 "\n. 📱 Hiroshi- Yo, "+playa+", wanna meet up at Daikoku parking lot?"
                  "\nDo you accept?"
                  "\naccept"
                  "\ndeny"
                  "\n:")
 if selector == "deny":
-    print("\n📱Hiroshi- maybe another time"
-          "\n📱you- Yeah, maybe another time...."
+    print("\n. 📱Hiroshi- maybe another time"
+          "\n. 📱you- Yeah, maybe another time...."
           "\nThank you for playing my game..Have a wonderful day " + playa + "!!")
     exit()
 else:
@@ -671,8 +672,8 @@ else:
                    "\nno"
                    "\n:")
 if stage3 == "no":
-    print("📱Hiroshi- maybe another time"
-          "\n📱you- Yeah, maybe another time...."
+    print(".Hiroshi- maybe another time"
+          "\n.you- Yeah, maybe another time...."
           "Thank you for playing my game..Have a wonderful day " + playa + "!!")
     exit()
 else:
@@ -889,9 +890,9 @@ elif yokohama == "Mitsubishi":
                      "\nMitsubishi "
                      "\nGTO TT "
                      "\nFTO "
-                     "\nLance Evo iii "
-                     "\nLance evo VI "
-                     "\nLance Evo VIII"
+                     "\nLancer Evo iii "
+                     "\nLancer evo VI "
+                     "\nLancer Evo VIII"
                      "\n:")
     if yokohama == "GTO TT":
         print("Tech specs of " + market + " " + yokohama + "."
@@ -919,7 +920,7 @@ elif yokohama == "Mitsubishi":
                                                       "\nProduction-  1994-2000"
                                                       "\nTop speed:140 MPH"
                                                       "\n0-60:6.9 seconds")
-    if yokohama == "Lance Evo iii":
+    if yokohama == "Lancer Evo iii":
         print("Tech specs of " + market + " " + yokohama + "."
                                                       "\nBody Style- Sports sedan"
                                                       "\nLayout- All wheel drive"
@@ -931,7 +932,7 @@ elif yokohama == "Mitsubishi":
                                                       "\nProduction- 1995-1996"
                                                       "\nTop speed:  147 MPH"
                                                       "\n0-60:4.5 seconds")
-    if yokohama == "Lance evo VI":
+    if yokohama == "Lancer evo VI":
         print("Tech specs of " + market + " " + yokohama + "."
                                                       "\nBody Style- Sports sedan"
                                                       "\nLayout-All wheel drive"
@@ -943,7 +944,7 @@ elif yokohama == "Mitsubishi":
                                                       "\nProduction-  1999-2001"
                                                       "\nTop speed:155 MPH"
                                                       "\n0-60:5 seconds")
-    if yokohama == "Lance Evo VIII":
+    if yokohama == "Lancer Evo VIII":
         print("Tech specs of " + market + " " + yokohama + "."
                                                       "\nBody Style- Sports sedan"
                                                       "\nLayout- All wheel drive"
@@ -1135,23 +1136,24 @@ input("Course name:C1 Inner Loop"
 city = input("You have just left Fujiwara's Tuning shop in Yokohama, "
              "\nand is now on the way to Daikoku parking lot. You arrive and meet the bois. "
              "\nYour homie hiroshi ask,"
-             "\n🗣Hiroshi- hey " + playa + ", wanna go for a midnight run?"
+             "\nHiroshi- hey " + playa + ", wanna go for a midnight run?"
                                            "\nStay"
                                            "\nGo"
                                            "\n:")
 if city == "Go":
-    city = input("🗣Hiroshi- Bet. Wanna do a run on the Daikoku route to C1 inner?"
+    city = input("Hiroshi- Bet. Wanna do a run on the Daikoku route to C1 inner?"
                  "\nyes"
                  "\nno"
                  "\n:")
 if city == "yes":
     print("すごい(Sugoi)!! Start your " + sasuke + " " + yokohama + ", Off to C1 Loop we go!!!")
 elif city == "Stay":
-    print("🗣Hiroshi- You still coming with us")
+    print("Hiroshi- You still coming with us")
 else:
     exit()
 toll = input("Right before you leave,"
-             "\nFollowing prices are listed below "
+             "\nYou must pay at the Daikoku parking lot toll booth."
+             "\nFollowing prices are listed below:"
              "\nNormal cars:  3,000JPY"
              "\nMidsize cars: 3,600JPY"
              "\nLarge cars:   4,950JPY"
@@ -1232,8 +1234,8 @@ print()
 # Choice after race incident
 # Tow truck option result
 if race == "Call a tow truck and dip":
-   race = input("👩🏻‍💼-Thanks. I appreciate it alot."
-          "\n🧑🏻Hiroshi- yo "+playa+", do you want to follow her to the tuning shop?"
+   race = input("Female driver-Thanks. I appreciate it alot."
+          "\n.Hiroshi- yo "+playa+", do you want to follow her to the tuning shop?"
           "\nTo make sure she arrives safely?"
           "\nyes"
           "\nno"
@@ -1276,7 +1278,7 @@ mods = input("As you and the homies head back to Daifoku parking. You see flashi
              "\nDamn near 10-15 police cars surrounded the parking.A sting operation!!"
              "\nand you just remember that is 7 day..."
              "\nBut yet you still stay in line for the inspection...."
-             "\n🗣👮🏻-Good " + TOD + ", we are currently doing inspections for illegal car modifications."
+             "\n👮‍♀️-Good " + TOD + ", we are currently doing inspections for illegal car modifications."
                                       "\nWe would like to see if you currently have these illegal modifications in your vehicle."
                                       "\nIs there and illegal modifications installed in your car."
                                       "\nyes"
@@ -1319,12 +1321,11 @@ if mods == "exit a":
           "\n¥100000 for evasion of police"
           "\n¥50000 for illegal modifications"
           "\n¥45000 for illegal street racing(caught on camera)"
-          "\n¥10000 for being caught by the police and taking the airport route🤦🏾‍♂️🤦🏾‍♂️🤦🏾‍♂️"
+          "\n¥10000 for being caught by the police and taking the airport route"
           "\n¥100000 for bail"
           "\n48 hrs later......"
           "\nYou go to your " + yokohama + ", at the impound lot, "
                                            "\nbut now, its stocked and stripped of its Mods..."
-                                           "\nCant have shit in Tokyo🤧🤧💯💯"
                                            "\nGAME OVER")
     yen -= 3000
     yen -= 100000
@@ -1418,7 +1419,7 @@ if smokey == "Top Secret Nissan Silvia S15":
     print("A drift build car on the expressway?"
           "\nYou got style, but maybe you should use it in Gunma rather than Tokyo")
 
-input("🗣Smokey- Hmm....Interesting that you chose the " + smokey + "."
+input("Smokey- Hmm....Interesting that you chose the " + smokey + "."
                                                                     "\nBut you my friend have made a interesting choice, but for now, I'll ride in my Supra.")
 print()
 input("By the way, I heard that there is a car meet at Umihotaru Parking area."
@@ -1427,7 +1428,7 @@ print()
 input("If you want you can 📱, your friends and ask them to come and check it out. ")
 print()
 # Asking if you want to go to car meet on Umigotaru(Artificial island on Aqualine)
-umihotaru = input("🗣Nagata- You wanna go to the Car meet " + playa + "?"
+umihotaru = input("Nagata- You wanna go to the Car meet " + playa + "?"
                                                                       "\nyes"
                                                                       "\nyes"
                                                                       "\n:")
@@ -1435,13 +1436,13 @@ if umihotaru == "yes":
     input("🗣Nagata- Alright, いくぞ(Ikuzo!)."
           "\nCome to think if it, maybe I can see your driving skills for once")
 print()
-input("🗣 you- Wait, my driving skills?")
+input("you- Wait, my driving skills?")
 print()
-input("🗣 Nagata- I mean, you did evade from the Police(警察)🚔 right?")
+input(" Nagata- I mean, you did evade from the Police(警察)🚔 right?")
 print()
-input("🗣 you- Eh, you gotta a point.  That was one hell of a pursuit.")
+input("you- Eh, you gotta a point.  That was one hell of a pursuit.")
 print()
-input("🗣 Nagata -Hell, I even got caught by the cops(🚔) in the Uk when i pulled 200MPH(322 kph)😂😂"
+input("Nagata -Hell, I even got caught by the cops(🚔) in the Uk when i pulled 200MPH(322 kph) 😂😂 "
       "\nAnyway, lets go to this car meet.")
 # Toll booth. Paying for toll to enter aqualine
 meet = input("One hour later..........."
@@ -1478,9 +1479,9 @@ meet = input("Current Balance: ¥" + str(yen))
 print()
 input("You payed the toll, but once you arrive, for some reason Smokey stopped in the middle of the road...")
 print()
-input("📱 you- Yo Smokey, why are did you stop in the middle of the road? 🤨")
+input("📱 you- Yo Smokey, why are did you stop in the middle of the road? 🤨 ")
 print()
-input("📱 Smokey- I am about to do, what is called a pro gamer move.😉😉")
+input("📱 Smokey- I am about to do, what is called a pro gamer move.😉")
 print()
 input("📱 you- What about that race? Yk, that cat and mouse race?")
 print()
@@ -1536,9 +1537,9 @@ elif aqua == "5":
 else:
     print("You car is now at max gear, and you can already hear that top secret special going at it")
 
-input("📱Smokey- damn kid, you're actually coming up,")
+input("Smokey- damn kid, you're actually coming up,")
 print()
-input("📱Smokey- But not for long...")
+input("Smokey- But not for long...")
 print()
 input("Already on " + aqua + " gear, you must hit the clutch in order to go to the next gear of your choice."
                              "\nBut while shifting, you are kinda excited you might beat Smokey.")
@@ -1551,14 +1552,14 @@ junction = input("But what you're about to do, will determine whether you win...
                  "\n:")
 if junction == "quickly":
     print("Oh shit you just stalled the car."
-          "\n📱 Smokey- I thought you said escaped from the cops."
+          "\nSmokey- I thought you said escaped from the cops."
           "\nYOU LOSE."
           "\nGAME OVER")
     exit()
 if junction == "slowly":
     print("Great, now you're right behind  Smokey Nagata"
-          "\n📱Smokey- nANI??? How did you manage to get right behind me?!?!?"
-          "\n📱you-  Just like the simulations....")
+          "\nSmokey- nANI??? How did you manage to get right behind me?!?!?"
+          "\nyou-  Just like the simulations....")
 input("You somehow manage to align your " + smokey + " right behind Smokey's car,"
                                                      "\nYou have a high chance of actually winning this cat n mouse race.")
 # Final push of cat and mouse race(Smokey Nagata)
@@ -1576,7 +1577,7 @@ finale = input("Since you're about to shift gears.."
                "\nHowever, do release the foot off the  clutch...."
                "\nquickly or slowly?")
 if finale == "quickly":
-    print("📱Smokey- Could've sworn you said escaped from the cops.."
+    print("Smokey- Could've sworn you said escaped from the cops.."
           "\nSurvey says that was a lie!"
           "\nYOU LOSE"
           "\nGAME OVER")
@@ -1587,19 +1588,19 @@ elif finale == "slowly":
           "\nYou eventually gain more and more distance, and boom you win!"
           "\nYou've Won 🏆 🏆 ")
 print()
-input("📱Smokey- Looks like Kosuke was right.."
+input("Smokey- Looks like Kosuke was right.."
       "\nYou really did escape the cops....")
-input("📱 You- So you thought I was lyin or somethin?!?!"
+input("You- So you thought I was lyin or somethin?!?!"
       "\nBut hey that was a pretty good race.")
 print()
-input("📱 Smokey- Haven't done this on the aqualine since 97..Good times")
+input("Smokey- Haven't done this on the aqualine since 97..Good times")
 print()
 input("You arrive at the Car meet on the aqualine on a calm " + TOD + ". Cars of all kinds."
                                                                       "\nSome stocked Skylines.  Some modified Silvia's and Supra. RX 7's tuned to the max"
                                                                       "\nHell even some bozozku cars. ")
 print()
-input("🗣Smokey- Oh, hey Koseki. Long time no see"
-      "\n🗣Koseki- If ain't Smokey Nagata......")
+input("Smokey- Oh, hey Koseki. Long time no see"
+      "\nKoseki- If ain't Smokey Nagata......")
 print()
 koseki = input("You turn around and see a red Mazda RX 7 FD35."
                "\nA RX 7 with some unique car spats and a wild spoiler."
@@ -1609,7 +1610,7 @@ koseki = input("You turn around and see a red Mazda RX 7 FD35."
                                                                "\ndeny"
                                                                "\n:")
 if koseki == "deny":
-    print("🗣 Koseki-  It would've been fun if we could've duel..."
+    print("Koseki-  It would've been fun if we could've duel..."
           "\nBut I understand.  Have a good night."
           "\nYou drive into the breezy " + TOD + ", going to whatever the roads take ya...."
                                                  "\nCONGRATULATIONS " + playa + "!! You have successfully Completed Hashiriya Undergrounds(Phase 1)!!")
@@ -1624,7 +1625,7 @@ nobita = input("\nBTW, do you want to change your car"
                "\n:")
 if nobita == "no":
     print("Thats cool..."
-          "\n🗣 Kosuke- I will start the Countdown!!!!")
+          "\nKosuke- I will start the Countdown!!!!")
 else:
     nobita = input("Hmm, which are do you want. Be quick about it"
                    "\nNissan Fairlady S130Z(Devil Z)"
@@ -1636,13 +1637,13 @@ if nobita == "Nissan Fairlady S130Z(Devil Z)":
           "\nLegend has it that some died in it and now this car is (possessed)."
           "\nBe gentle with it")
 elif nobita == "Skyline R32 GTR":
-    print("🗣 Koseki-  Heard this car belonged to this fashion model and this tv show host."
+    print("Koseki-  Heard this car belonged to this fashion model and this tv show host."
           "\nSome show called(Drive go go)! Or somethin like that"
           "\nThe drivers name i think is Reina or something along those lines."
           "\nBut this AWD car is has some pretty good handing and acceleration and has a 300hp."
           "\nIn a nutshell. You'll be driving a pretty good car on the aqualine")
 if nobita == "Ferrari Testarossa":
-    print("🗣 Koseki-  Ah, those fancy italian cars eh"
+    print("Koseki-  Ah, those fancy italian cars eh"
           "\nThe previous owner is some photographer by the name of Ishida"
           "\nAs any Ferrari, its pretty fast with 385hp, making this thing a monster on the expressway."
           "\nWell, as long as the driver can handle it😉.")
@@ -1651,7 +1652,7 @@ input("Since you have decided to select the " + nobita + ", the race between you
 print()
 input("Similar to before, this is just cat and mouse race between the Aqualine to the Bayshore route.")
 print()
-input("🗣 Kosuke- I will start the Countdown!!!!")
+input("Kosuke- I will start the Countdown!!!!")
 
 x = 10
 while x > 0:
@@ -1683,9 +1684,13 @@ input("Koseki- Shoot " + playa + ".  Could've at least told me you're a wanted m
 print()
 input("you- Hey man, what do you expect.  They got cameras setup in these tunnels nowadays.")
 print()
-input("You now end up breaking the toll booth station and end up fleeing the police"
-      "\n🗣 you- Imma lay low for a bit."
-      "\n🗣 Koseki- you better."
+input("You now end up breaking the toll booth station and end up fleeing te police"
+      "\n you- Imma lay low for a bit."
+      "\nKoseki- you better."
       "\nYou go drive during a breezy and  " + TOD + ", and go whatever the roads take you....")
 input("Congratulations " + playa + "!! You have successfully completed phase 1 of Hashiriya Undergrounds!! ")
 exit()
+                                             
+    
+                                                  
+                                                      
