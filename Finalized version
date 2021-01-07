@@ -1,4 +1,4 @@
-print("_________________________________")
+ print("_________________________________")
 print("|    🔰 走り屋にわたって地下  🔰    |")
 print("|                               |"
       "\n|  🔰 Hashriya Undergrounds 🔰    |"
@@ -1657,9 +1657,11 @@ if nobita == "Ferrari Testarossa":
           "\nAs any Ferrari, its pretty fast with 385hp, making this thing a monster on the expressway."
           "\nWell, as long as the driver can handle it😉.")
 print()
-input("Since you have decided to select the " + nobita + ", the race between you and Koseki will now commence")
+input("Since you have decided to select the " + nobita + ","
+      "\nthe race between you and Koseki will now commence")
 print()
-input("Similar to before, this is just cat and mouse race between the Aqualine to the Bayshore route.")
+input("Similar to before," 
+      "\nthis is just cat and mouse race between the Aqualine to the Bayshore route.")
 print()
 input("Kosuke- I will start the Countdown!!!!")
 
@@ -1691,12 +1693,14 @@ else:
 print()
 input("Koseki- Shoot " + playa + ".  Could've at least told me you're a wanted man")
 print()
-input("you- Hey man, what do you expect.  They got cameras setup in these tunnels nowadays.")
+input("you- Hey man, what do you expect." 
+     "\nThey got cameras setup in these tunnels nowadays.")
 print()
 input("You now end up breaking the toll booth station and end up fleeing te police"
       "\n you- Imma lay low for a bit."
       "\nKoseki- you better."
-      "\nYou go drive during a breezy and  " + TOD + ", and go whatever the roads take you....")
+      "\nYou go drive during a breezy and  " + TOD + ","
+      "\nand go whatever the roads take you....")
 input("Congratulations " + playa + "!!"
       "\nYou have successfully completed phase 1 of Hashiriya Undergrounds!! ")
 exit()
