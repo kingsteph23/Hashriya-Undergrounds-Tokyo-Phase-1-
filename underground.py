@@ -1,3 +1,5 @@
+import time
+
 print("_________________________________")
 print("|    🔰 走り屋にわたって地下  🔰       |")
 print("|                                 |"
@@ -587,7 +589,6 @@ if dajou == "Accept the challenge" or dajou == "Accept":
     print("Driver- Last one to the Yokohama Bay bridge loses ")
 elif dajou == "Decline and call it a night" or dajou == "Decline":
     print("Too bad " + playa + ", challenge still stands")
-import time
 
 waitime = 10
 
@@ -1296,16 +1297,25 @@ input(
 input("Female driver- Nice ride.  Ain't that a " + market + " " + JDM + "?"
                                                                         "\n" + playa + "-Uhh, yeah.... This is my " + JDM + ". My name is " + playa + ".")
 print()
-input("Female driver- Reina, my name is Reina.")
+femaledriver = "Naomi"
+input("Female driver- " + femaledriver + ", my name is " + femaledriver + ".")
 print()
-input("Reina- Anyway, I was just curious because i saw your ride, I was thinking about doing a friendly competition.")
+input("" + femaledriver + "- Anyway, I was just curious because i saw your ride, "
+                          "\nI was thinking about doing a friendly competition.")
 print()
 input("" + playa + ". what type of competition")
 print()
 input("Reina- A PINKSLIP RACE OFC."
-      "\n2 laps around city inner. Last lap, whoever, can cross Rainbow bridge "
-      "\nWinner gets losers car.")
-print()
+      "\n2 laps around city inner. Last lap, whoever, can cross Rainbow bridge")
+pinkslip = input("(1)What the hell is a pinkslip race?"
+                 "\n(2)Ummm sure....")
+if pinkslip == "1" or "What the hell is a pinkslip race?":
+    print("In a nutshell, you're basiclly putting your car on the line,"
+          "\nIf i were to win, you would lose your car, and i would basically have your car."
+          "\nIf you were to win, you would have my car, and I would lose my car.")
+else:
+    print("Hmm, you sure are bold to put your car on the line?")
+    print()
 city = input("\nDo you accept the challenge?"
              "\n(1)yes"
              "\n(2)no"
@@ -1347,13 +1357,22 @@ elif city == "yes" or city == "1":
         waitime -= 1
     print("GO!")
     print()
-    print()
-input("As you blast, you start noticing your rival starts gaining the high ground"
-      "\nOh shoot, you already in the Ichinohashi Junction. Already in a tunnel, you can already hear that flat six engine  going at it "
+input("As you blast, you start noticing your rival starts gaining the "
+      "high ground")
+layout = input("R"
+               "\n|  1  3  5"
+               "\n---|--|--|"
+               "\n   2  4  6 "
+               "\nWhich gear do you wish to shift to"
+               "\nCurrently on first gear."
+               "\n>>")
+if layout == "2":
+    print(""+femaledriver+"-You're getting somewhere, but not for long,,")
+print()
+input("Oh shoot, you already in the Ichinohashi Junction. Already in a tunnel, you can already hear that flat six engine  going at it "
       "\nA couple of loops later.  We're already on lap 2.  Now we're at the colorful Rainbow bridge"
       "\nBut all of a sudden, you see smokey flames coming from your rivals car. A BLOWOUT!"
       "\nYou pull to the side. She exists out of her car shocked. She admits defeat")
-print()
 print()
 race = input("Since you somehow have empathy for her, and a chance to slide in them dms."
              "\nDo you"
@@ -1384,7 +1403,7 @@ else:
 # Tuning garage option result
 if race == "Take the car to the Yokohama tuning Garage":
     race = input("You and the bois hook her car to your " + sasuke + " " + yokohama + ""
-                                                                                      "\nYou drive on the Bayshore route, during a beautiful " + TOD + ""
+                 "\nYou drive on the Bayshore route, during a beautiful " + TOD + ""
                                                                                                                                                        "\nYou call up your homie Kotori, and ask him to be ready to fix a porsche."
                                                                                                                                                        "\nYou arrive at the tuning shop, and the driver says,Arigato!"
                                                                                                                                                        "\nAs a gift, she has a surprise for you....")
@@ -1620,7 +1639,6 @@ input("📱 Smokey- oh we doing a Cat and Mouse race alright, but here's the thi
       "\nIm the mouse🐭, you're the cat🐱"
       "\nGood luck chasing me!!!"
       "\nHere we go!!!!!!")
-import time
 
 waitime = 10
 
@@ -1781,29 +1799,31 @@ else:
                    "\nNissan Fairlady S130Z(Devil Z)"
                    "\nSkyline R32 GTR"
                    "\nFerrari Testarossa"
-                   "\n:")
+                   "\n>>")
+    print()
 if nobita == "Nissan Fairlady S130Z(Devil Z)":
     print("🗣 Koseki-  Be careful with that car...."
           "\nLegend has it that some died in it and now this car is (possessed)."
           "\nBe gentle with it")
+
 elif nobita == "Skyline R32 GTR":
     print("Koseki-  Heard this car belonged to this fashion model and this tv show host."
           "\nSome show called(Drive go go)! Or somethin like that"
           "\nThe drivers name i think is Reina or something along those lines."
           "\nBut this AWD car is has some pretty good handing and acceleration and has a 300hp."
           "\nIn a nutshell. You'll be driving a pretty good car on the aqualine")
+
 if nobita == "Ferrari Testarossa":
     print("Koseki-  Ah, those fancy italian cars eh"
           "\nThe previous owner is some photographer by the name of Ishida"
           "\nAs any Ferrari, its pretty fast with 385hp, making this thing a monster on the expressway."
           "\nWell, as long as the driver can handle it😉.")
 print()
-input("Since you have decided to select the " + nobita + " , the race between you and Koseki will now commence")
+input("The race between you and Koseki will now commence..")
 print()
 input("Similar to before, this is just cat and mouse race between the Aqualine to the Bayshore route.")
 print()
 input("Kosuke- I will start the Countdown!!!!")
-import time
 
 waitime = 10
 
