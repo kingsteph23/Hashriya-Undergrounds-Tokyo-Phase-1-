@@ -1,10 +1,48 @@
 import time
+import webbrowser
 
+# Warning
+input("BEFORE WE GET STARTED")
+input("\nNote, there are some things you should know before starting this game")
+input("\nWhen typing your option of choice. You MUST type it exactly as you see"
+      "\nEven a little mistake could cause a result in answer which doesn't make any sense, or a potential error as a result.")
+print()
+input("Also, if you dont feel like typing the full result,"
+      "\nI gave you the option of using a shortcut,which are seen like this-(Accept), which results in the same output compared to long version.Ex(Accept the challenge)"
+      "\nHowever, even though its shortcut, you MUST type it exactly as you see it. NO SHORTCUTS OR YOU MAY GET A POTENTIAL ERROR AS A RESULT."
+      "\nSo be careful with typing responses^")
+print()
+input("If you come in contact with a countdown feature:"
+      "\nDon't attempt to skip it. Also, dont spam the enter/return button on your keyboard")
+print()
+input("Don't type another answer that isn't there"
+      "\nIf you are given a response where you have a option of yes or no, but you put yeezus as a answer..."
+      "\nIt will be marked either as a invalid answer, or you can potentially get a answer that you don't want"
+      "\nnor will it make sense.")
+print()
+input("There are times where I may use Japanese words,"
+      "\nbut a majority of them i translated into English")
+print()
+input("To anyone that speaks Japanese(especially fluently), mind my crappy Japanese. "
+      "\n日本語を話す人（特に流暢に）には、私の嫌な日本語を心に入れてください")
+print()
+input("Feedback and constructive criticism is greatly appreciated.  If you experience any bugs or issues with my game."
+      "\nOr just general feedback(pros/cons)"
+      "\nPlease mark it as a new issue on my github.")
+print()
+input("Also, because I ended up realizing that not so much people may not know so much about the Japanese car scene..."
+      "\nI made a reference table on the types of cars/courses in the game so people understand what i'm talking about ."
+      "\nAlso the links to my Github and Instagram is there as well if you want to check it out.")
+webbrowser.open_new_tab("https://docs.google.com/presentation/d/1gUiCFEegUgecGEIT5yWCWxZKv7GEKd8X4rMK_SKgFUw/edit#slide=id.p")
+print()
+input("Have fun ;)")
+print()
 print("_________________________________")
-print("|    🔰 走り屋にわたって地下  🔰       |")
-print("|                                 |"
+print("|    🔰 走り屋にわたって地下  🔰     |")
+print("|                               |"
       "\n|  🔰 Hashriya Undergrounds 🔰   |"
-      "\n|       Phase 1(Tokyo)          |"
+      "\n|       Phase 1(Tokyo)          |" 
+      "\n|          V 1.1                |"
       "\n|_______________________________|")
 
 start = input("Hello playa.  Do you wish to begin?"
@@ -16,39 +54,20 @@ if start == "quit":
     exit()
 elif start == "start":
     print("Gotcha. but theres some things you should know.....")
-# Warning
-input("BEFORE WE GET STARTED")
-input("\n Note, there are some things you should know before starting this game"
-      "\n 1:Everytime you respond to a question, make sure you type it EXACTLY how you see")
-print()
-input("For example,if you are required to respond to a question,such as a yes or no question"
-      "\nif you select yes, write yes EXACTLY how you see it. If you select no, write it exactly how you see it.")
-input("Even if its a long response such as,Take the car to the tuning garage."
-      "\nYou MUST type it exactly like this, or the computer will not read it."
-      "\nSo be careful when writing your responses a and make sure you write it EXACTLY AS YOU SEE IT. ")
-print()
-input(" Don't type another answer that isn't there"
-      "\n If you are given a response where you have a option of yes or no, but you put yeezus as a answer..."
-      "\n It will be marked either as a invalid answer, or you can potentially get a answer that you don't want"
-      "\n nor will it make sense.")
-print()
-input("There are times where I may use Japanese words,"
-      "\nbut a majority of them i translated into English")
-print()
-input("To anyone that speaks Japanese(especially fluently), mind my crappy Japanese. "
-      "\n 日本語を話す人（特に流暢に）には、私の嫌な日本語を心に入れてください")
-print()
-input("Feedback and constructive criticism is greatly appreciated.  If you experience any bugs or issues with my game."
-      "\nOr just general feedback(pros/cons)"
-      "\nPlease mark it as a new issue on my github.")
+    print()
+# V 1.1 update
+print("V 1.1 Update"
+      "\n"
+      "\nAddition of realtime timer(00:00) format"
+      "\nChanges in dialogue(Bayshore route/C1 inner loop)"
+      "\nShortcuts so user doesn't have to type entire option(although, they still can)"
+     "\nCurrently:"
+     "\nAddition of realtime timer(00:00) format"
+     "\nChanges/Addition in dialogue(Bayshore route/C1 inner loop)"
+     "\nShortcuts so user doesn't have to type entire option(although, they still can)"
+     "\nAddition of race scenes/manual transmission layout in Bayshore route/C1 inner loop(Not set in C1 inner)")
 
 print()
-input("Also, because I ended up realizing that not so much people may not know so much about the Japanese car scene..."
-      "\nI made a reference table on the types of cars/courses in the game so people understand what i'm talking about ."
-      "\nAlso the links to my Github and Instagram is there as well if you want to check it out.")
-print()
-input("Have fun ;)")
-
 # Intro
 choice = input("Welcome to the land of the rising sun,Do you wish to start?(yes/no)>>").lower().strip()
 if choice.lower().strip() == "no":
@@ -571,7 +590,7 @@ elif Bayshore == "Kei-car" or Bayshore == "5":
 
 Bayshore = input("Current Balance: ¥" + str(yen))
 input("As you cruise in your  " + market + " " + JDM + ", "
-                                                       "\nyou notice another Hashriya driving. One with a Porsche 911 GT2(95)"
+                                                       "\nyou notice another Hashriya driving. One with a Ferrari Testarossa..."
                                                        "\nHe flickers at you... ")
 print()
 input("Hashiriya - Hey you, I like your  " + market + " " + JDM + ","
@@ -603,7 +622,7 @@ print("GO!")
 print()
 # Manual layout(6th gear layout)
 input("Manual layout of " + market + " " + JDM + ","
-                                                 "R"
+                                                 "\nR"
                                                  "\n|  1  3  5"
                                                  "\n---|--|--|"
                                                  "\n   2  4  6")
@@ -636,7 +655,7 @@ input("Now nearing the tokyo international cruise line, "
       "\nyou realize its time to shift gears again")
 print()
 # Second shift:Option
-shift2 = input("R"
+shift2 = input("\nR"
                "\n|  1  3  5"
                "\n---|--|--|"
                "\n   2  4  6 "
@@ -667,8 +686,7 @@ shift3 = input("This will determine who will most likely get ahead in the long r
                                             "\n>>")
 if shift3 < shift2:
     print("Because you decided to increase the top speed in cost,"
-          "\nthe other Hashiriya suppresses you, and leaves you in the dust💨💨."
-          "\nYou lose......🤧🤧")
+          "\nthe other Hashiriya suppresses you, and leaves you in the dust💨💨.")
 elif shift3 > shift2:
     print("Hashiriya - Wha, 何 (なに),how did you get behind me?"
           "\nOh shit, you're actually catching up 🤯😳"
@@ -767,11 +785,11 @@ if selector == "deny" or selector == "2":
           "\nThank you for playing my game..Have a wonderful day " + playa + "!!")
     exit()
 else:
-    stage3 = input("Are you sure you wish to proceed to Stage 2 of Hashriya Undergrounds"
+    selector = input("Are you sure you wish to proceed to Stage 2 of Hashriya Undergrounds"
                    "\n(1)yes"
                    "\n(2)no"
                    "\n>>")
-if stage3 == "no" or stage3 == "2":
+if selector == "no" or selector == "2":
     print(".Hiroshi- maybe another time"
           "\n.you- Yeah, maybe another time...."
           "Thank you for playing my game..Have a wonderful day " + playa + "!!")
@@ -1292,12 +1310,15 @@ print()
 # Next part of game(C1 inner)
 input(
     "You and the bois are known crusin through Daikoku route during the " + TOD + " "
-                                                                                  "\nAll of a sudden, a Porsche 911 GT2(95) appears and flickers its lights."
+    "\nAll of a sudden, a Porsche 911 GT2(95) appears and flickers its lights."
                                                                                   "\nyou pull over, and a female walks out of the car.")
 input("Female driver- Nice ride.  Ain't that a " + market + " " + JDM + "?"
-                                                                        "\n" + playa + "-Uhh, yeah.... This is my " + JDM + ". My name is " + playa + ".")
+     "\n" + playa + "-Uhh, yeah.... This is my " + JDM + ". My name is " + playa + ".")
 print()
+# String of female driver name: Naomi,
+# I just created it some i dont have to type Naomi's name every five seconds
 femaledriver = "Naomi"
+# Dialogue between you and Naomi
 input("Female driver- " + femaledriver + ", my name is " + femaledriver + ".")
 print()
 input("" + femaledriver + "- Anyway, I was just curious because i saw your ride, "
@@ -1305,12 +1326,16 @@ input("" + femaledriver + "- Anyway, I was just curious because i saw your ride,
 print()
 input("" + playa + ". what type of competition")
 print()
-input("Reina- A PINKSLIP RACE OFC."
-      "\n2 laps around city inner. Last lap, whoever, can cross Rainbow bridge")
+# Understanding what a pink slip race is: Basically putting your car on the line
+# For other drivers car
+input("Naomi- A PINKSLIP RACE OFC."
+      "\n1 lap around city inner. Last lap, whoever, can cross Rainbow bridge")
+
 pinkslip = input("(1)What the hell is a pinkslip race?"
-                 "\n(2)Ummm sure....")
+                 "\n(2)Ummm sure...."
+                 "\n>>")
 if pinkslip == "1" or "What the hell is a pinkslip race?":
-    print("In a nutshell, you're basiclly putting your car on the line,"
+    print("In a nutshell, you're basically putting your car on the line,"
           "\nIf i were to win, you would lose your car, and i would basically have your car."
           "\nIf you were to win, you would have my car, and I would lose my car.")
 else:
@@ -1323,10 +1348,11 @@ city = input("\nDo you accept the challenge?"
 print()
 if city == "no" or city == "2":
     print("Hmmm. maybe another ti....SIKKEEEE "
-          "\nNow being pressured by your friends and actually have a chance to show of your" + sasuke + " " + yokohama + ", you agree, to a friendly...competition...."
+          "\nNow being pressured by your friends and actually have a chance to "
+          "\nshow of your" + sasuke + " " + yokohama + ", you agree, to a friendly...competition...."
                                                                                                                          "\nTwo laps along the C1 inner loop, with a final stretch on the Rainbow Bridge."
                                                                                                                          "\nYa Boi Tadashi says"
-                                                                                                                         "\nI WILL START THE COUNTDOWN.")
+                                                                                                                     "\nI WILL START THE COUNTDOWN.")
     print()
     import time
 
@@ -1345,6 +1371,7 @@ elif city == "yes" or city == "1":
     print("Ya boi Tadashi says..."
           "\nI WILL START THE COUNTDOWN.")
     print()
+    # tIME module which basically starts the countdown(00:00) format
     import time
 
     waitime = 10
@@ -1368,9 +1395,52 @@ layout = input("R"
                "\n>>")
 if layout == "2":
     print(""+femaledriver+"-You're getting somewhere, but not for long,,")
+else:
+    print(""+femaledriver+"-You're getting somewhere, but not for long,"
+         "\nSince you decided to skip gears, you have not entered a cool down period"
+         "\nof 8 seconds ")
+
+    waitime = 8
+
+    while waitime > 0:
+        mins, secs = divmod(waitime, 60)
+        timeformat = '{:02d}:{:02d}'.format(mins, secs)
+        print(timeformat)
+        time.sleep(1)
+        waitime -= 1
 print()
-input("Oh shoot, you already in the Ichinohashi Junction. Already in a tunnel, you can already hear that flat six engine  going at it "
-      "\nA couple of loops later.  We're already on lap 2.  Now we're at the colorful Rainbow bridge"
+layout2 = input("R"
+                "\n|  1  3  5"
+                "\n---|--|--|"
+                "\n   2  4  6 "
+                "\nComing up on "
+                "\nWhich gear do you wish to shift to"
+                "\nCurrently on "+layout+" gear."
+                "\n>>")
+if layout2 > layout:
+    print("\n"+femaledriver+"-Not bad kid"
+          "\nAt the cost of acceleration, there is a increase in top speed,"
+          "\nYou end up getting getting  behind "+femaledriver+",before driving by Kasumigaseki exit."
+          "\nThe place where a bunch of parliament buildings and the Imperial palace are^. ")
+elif layout2 < layout:
+    print(""+femaledriver+"-How did you....."
+          "\nAt the cost of top speed, you end up passing "+femaledriver+", once you arrive at the "
+                                                                       "\nKasumigaseki exit. ")
+    print()
+layout3 = input("You're currently on "+layout2+" gear."
+                "\nR"
+                "\n|  1  3  5"
+                "\n---|--|--|"
+                "\n   2  4  6 "
+                "\nComing up on to the tunnels in under the imperial gardens... "
+                "\nWhich gear do you wish to shift to"
+                "\n>>")
+if layout3 > layout2:
+    print(""+femaledriver+"- Oh wow, you're actually coming up")
+elif layout3 < layout2:
+    print(""+femaledriver+"-Getting slower there "+playa+".")
+print()
+input("Now we're at the colorful Rainbow bridge."
       "\nBut all of a sudden, you see smokey flames coming from your rivals car. A BLOWOUT!"
       "\nYou pull to the side. She exists out of her car shocked. She admits defeat")
 print()
@@ -1384,7 +1454,7 @@ print()
 # Choice after race incident
 # Tow truck option result
 if race == "Call a tow truck and dip" or race == "Call":
-    race = input("Female driver-Thanks. I appreciate it alot."
+    race = input(""+femaledriver+"-Thanks. I appreciate it alot."
                  "\n.Hiroshi- yo " + playa + ", do you want to follow her to the tuning shop?"
                                              "\nTo make sure she arrives safely?"
                                              "\nyes"
@@ -1404,9 +1474,9 @@ else:
 if race == "Take the car to the Yokohama tuning Garage":
     race = input("You and the bois hook her car to your " + sasuke + " " + yokohama + ""
                  "\nYou drive on the Bayshore route, during a beautiful " + TOD + ""
-                                                                                                                                                       "\nYou call up your homie Kotori, and ask him to be ready to fix a porsche."
-                                                                                                                                                       "\nYou arrive at the tuning shop, and the driver says,Arigato!"
-                                                                                                                                                       "\nAs a gift, she has a surprise for you....")
+                 "\nYou call up your homie Kotori, and ask him to be ready to fix a porsche."                                                                                                                                              "\nYou arrive at the tuning shop, and the driver says,Arigato!"
+                 "\nAs a gift, she has a surprise for you....")
+    print()
 surprise = input("Do you Wanna see the gift from the female driver?"
                  "\nyes"
                  "\nhell yes"
@@ -1421,6 +1491,25 @@ elif surprise == "hell yes":
           "\nYou just got caught lacking.")
 yen += 40000
 surprise = input("Current Balance: ¥" + str(yen))
+print()
+# Offer of a porsche
+porsche = input(""+femaledriver+"-Wait...."
+     "\nBefore you leave, since you technically won the race"
+     "\nShe offers her car as well: A Porsche 911 GT2(95)"
+     "\nDo you accept the offer or deny it?"
+     "\naccept"
+      "\ndeny"
+       "\n>>")
+print()
+if porsche == "deny":
+    print(""+playa+"-Ehh, its fine."
+                   "\nYou can keep the car")
+elif porsche == "accept":
+    print("*New Car Unlock:Porsche 911 GT2(95)*"
+          "\nWell looks like you got a new car to go home with")
+    print()
+
+porsche2 = "Porsche 911 GT2(95)"
 print()
 
 mods = input("As you and the homies head back to Daifoku parking. You see flashing lights..."
@@ -1557,6 +1646,7 @@ smokey = input("For now, you can use one of the Top secret cars:"
                "\n(Silvia)Top Secret Nissan Silvia S15"
                "\n(Supra)Top Secret Toyota Supra"
                "\n(Skyline)Top Secret Nissan Skyline R34"
+               "\n"+porsche2+""
                "\n>>")
 if smokey == "Top Secret Toyota Supra" or smokey == "Supra":
     print("So i see you like stealing other peoples cars...."
@@ -1729,7 +1819,7 @@ if junction == "slowly" or junction == "S":
           "\nSmokey- nANI??? How did you manage to get right behind me?!?!?"
           "\nyou-  Just like the simulations....")
 input("You somehow manage to align your " + smokey + " right behind Smokey's car,"
-                                                     "\nYou have a high chance of actually winning this cat n mouse race.")
+             "\nYou have a high chance of actually winning this cat n mouse race.")
 # Final push of cat and mouse race(Smokey Nagata)
 print()
 input("But it all comes down to one more option.....")
@@ -1743,7 +1833,9 @@ print()
 finale = input("Since you're about to shift gears.."
                "\nBut you hit the clutch..."
                "\nHowever, do release the foot off the  clutch...."
-               "\n(Q)quickly or (S)slowly?")
+               "\n(Q)quickly or (S)slowly?"
+               "\n>>")
+print()
 if finale == "quickly" or finale == "Q":
     print("Smokey- Could've sworn you said escaped from the cops.."
           "\nSurvey says that was a lie!"
@@ -1764,8 +1856,8 @@ print()
 input("Smokey- Haven't done this on the aqualine since 97..Good times")
 print()
 input("You arrive at the Car meet on the aqualine on a calm " + TOD + ". Cars of all kinds."
-                                                                      "\nSome stocked Skylines.  Some modified Silvia's and Supra. RX 7's tuned to the max"
-                                                                      "\nHell even some bozozku cars. ")
+      "\nSome stocked Skylines.  Some modified Silvia's and Supra. RX 7's tuned to the max"
+      "\nHell even some bozozku cars. ")
 print()
 input("Smokey- Oh, hey Koseki. Long time no see"
       "\nKoseki- If ain't Smokey Nagata......")
@@ -1787,6 +1879,7 @@ if koseki == "deny":
 if koseki == "accept":
     print("Alright, good thing your boi Kosuke is here."
           "\nNote: This is a cat and mouse race(you're the mouse. Koseki is the cat")
+    print()
 nobita = input("\nBTW, do you want to change your car"
                "\nyes"
                "\nno"
@@ -1813,11 +1906,11 @@ elif nobita == "Skyline R32 GTR":
           "\nBut this AWD car is has some pretty good handing and acceleration and has a 300hp."
           "\nIn a nutshell. You'll be driving a pretty good car on the aqualine")
 
-if nobita == "Ferrari Testarossa":
-    print("Koseki-  Ah, those fancy italian cars eh"
-          "\nThe previous owner is some photographer by the name of Ishida"
-          "\nAs any Ferrari, its pretty fast with 385hp, making this thing a monster on the expressway."
-          "\nWell, as long as the driver can handle it😉.")
+elif nobita == "Ferrari Testarossa":
+    print('Koseki-  Ah, those fancy italian cars eh'
+          '\nThe previous owner is some photographer by the name of Ishida'
+          '\nAs any Ferrari, its pretty fast with 385hp, making this thing a monster on the expressway.'
+          '\nWell, as long as the driver can handle it😉.')
 print()
 input("The race between you and Koseki will now commence..")
 print()
@@ -1844,7 +1937,8 @@ print()
 naruhito = input("Unfourantly,you see another 🚔."
                  "\nYou see two exits, one goes up⬆️ , the other goes left⬅️."
                  "\nOne leads to freedom, the other puts you into the slammer."
-                 "\nWanna go (⬆️)up or (⬅️)left:  ")
+                 "\nWanna go (⬆️)up or (⬅️)left"
+                 "\n>>  ")
 if naruhito == "left" or naruhito == "⬅️":
     print("Oh shoot, you somehow gained a blowout."
           "\nDamn....⚠️🚨🚧ACCIDENT ON THE AQUALINE🚨🚧⚠️"
